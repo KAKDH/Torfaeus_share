@@ -1,0 +1,2025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Description of GKS 2449 4to</title>
+            <author> Katarzyna Anna Kapitan </author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Katarzyna Anna Kapitan</authority>
+            <date when="2024-11">First published online on 26 November 2024.</date>
+            <availability>
+               <licence> This manuscript description is available under the terms of Creative
+                  Commons license <ref type="URL"
+                     target="https://creativecommons.org/licenses/by/4.0/deed.en">CC-BY
+                  4.0</ref>.</licence>
+               <p>This description is work in progress. Feel free to use it, but do not quote its
+                  contents verbatim, as it has not been proofread and may contain errors. </p>
+               <p> How to cite: <bibl>
+                     <author><surname>Kapitan</surname><forename>Katarzyna Anna</forename></author>
+                     <title>Description of GKS 2449 4to, https://github.com/KAKDH (last accessed:
+                        DD/MM/YYYY)</title>
+                     <date type="publication">2024</date>
+                  </bibl>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="GKS_04_2449" xml:lang="en">
+               <msIdentifier>
+                  <repository ref="#KBDK">Det Kongelige Bibliotek, Copenhagen</repository>
+                  <idno>GKS 2449 4to</idno>
+               </msIdentifier>
+               <msContents>
+                  <titlePage>
+                     <titlePart><pb n="Ir"/>
+                        <lb n="1"/> SERIES <lb n="2"/> DYNASTARUM ET <lb n="3"/> REGUM DANIÆ <lb
+                           n="4"/> A SKIOL<lb n="5"/>DO OTHINI FILIO AD SVE<lb n="6"/>nonem
+                        Estridium juxta monu<lb n="7"/>mentorum Islandicorum har<lb n="8"/>moniam
+                        deducta <ex>et</ex> con<lb n="9"/>cinnata. <lb n="10"/> Opera <ex>et</ex>
+                        studio <lb n="11"/> THORMODI THOR<lb n="12"/>FÆI ISLANDI. <lb n="13"/>
+                        HAFNIÆ <lb n="14"/> ANNO <date when="1664">MDCLXIV</date>.</titlePart>
+                     <note>Verso side of the title page is blank.</note>
+                  </titlePage>
+                  <msItem n="1">
+                     <locus from="Ir" to="196v">Ir-196v</locus>
+                     <title type="uniform">Series dynastarum</title>
+                     <author xml:lang="ice">Þormóður Torfason (1636—1719)</author>
+                     <author xml:lang="la">Thormodus Torfæus (1636—1719)</author>
+
+                     <msItem n="1.1">
+                        <locus from="IIr" to="IVr">IIr–IVr</locus>
+                        <title type="supplied">Dedication</title>
+                        <rubric><pb n="IIr"/><lb n="1"/> Serenissimo et potentissimo Principi <lb
+                              n="2"/> FRIDERICO III. <lb n="3"/> DANIÆ, NORVEGIÆ, VANDA<lb n="4"
+                           />lorum Gothorumqve Regi Cele<lb n="5"/>berrimo. Slesvici, Holsatiæ,
+                           Stormariæ, <lb n="6"/> et Dithmarciæ Duci. Comiti in Olden<lb n="6"/>burg
+                           et Delmenhorst etc. Domino <lb n="7"/> et Regi meo Clementissimo <lb
+                              n="8"/> optimo S.</rubric>
+                        <incipit><lb n="9"/> Prodit tandem, Regum optime </incipit>
+                        <explicit>Cum <lb/> umversa Regia familia multum diuq<ex>ue</ex>
+                           Con<lb/>servet</explicit>
+                        <colophon>Sereniss: Maj<ex>estatem</ex> Tu<ex>am</ex>
+                           <lb/> Omni Subjectione et Venera<lb/>tione devote colens. <lb/> Thormodus
+                           Thorfæus. Isl: </colophon>
+                        <note>The verso side of this folio is left blank. </note>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="1r" to="13r">1r–13r</locus>
+                        <title type="supplied">Preface</title>
+                        <msItem n="1.2.1">
+                           <locus from="1r" to="5v">1r–5v</locus>
+                           <title type="supplied">Preface, Chapter 1</title>
+                           <rubric><pb n="1"/><lb n="1"/> PROLEGOMENA <lb n="2"/> De Annalium
+                              Islandicorum antiqvitate. <lb n="3"/> SECTIO I. </rubric>
+                           <incipit>
+                              <lb n="4"/> Islandorum antiqvitates adeo extollit <lb n="5"/> Saxo </incipit>
+                           <explicit>Sit satis de Anna<lb/>lium Islandorum antiqvitate; ad ulteriora
+                              <lb/> pergo.</explicit>
+                           <msItem n="1.2.1.1">
+                              <locus from="1r" to="1v"/>
+                              <title type="supplied">Quote: Saxo, <title type="uniform">Gesta
+                                    Danorum</title></title>
+                              <quote type="prose" xml:lang="la" rendition="antiqua"> Nec <lb/>
+                                 Tylensium (inqvit) industria silentio obliteran<lb/>da, qui cum ob
+                                 nativam soli sterilitatem, lu<lb/>xuriæ nutrimentis carentes,
+                                 officia continuæ <lb/> sobrietatis exerceant, omniaq<ex>ue</ex>
+                                 vitæ momen<lb/>ta ad excolendam alienorum operum notiti<lb/>am
+                                 conferre soleant, inopiam ingenio pensant: <lb/> Cunctarum qvippe
+                                 nationum res gestas cognosse <lb/> memoriæq<ex>ue</ex> mandare,
+                                 voluptatis loco reputant; <lb/> non minoris gloriæ Judicantes
+                                 alienas virtu<lb/>tes disserere, qvam proprias exhibere; qvorum
+                                 <lb/> thesauros Historicarum rerum, pignoribus refertos curiosius
+                                 consulens, haud parvam præsentis <lb/> operis partem ex eorum
+                                 relationis imitatione <fw type="catchword">con</fw>
+                                 <pb n="1v"/>
+                                 <lb n="1"/> contexui, nec arbitros habere contempsi, <lb/> qvos
+                                 tanta vetustatis peritia callere cognovi. </quote>
+
+                           </msItem>
+                           <msItem n="1.2.1.2">
+                              <locus from="3r" to="4v"/>
+                              <title type="supplied">Quote: Peder Claussøn Friis, <title
+                                    type="uniform">Norriges oc omliggende Øers sandfærdige
+                                    Bescriffuelse</title>.</title>
+                              <quote type="prose" xml:lang="da" rendition="kurrent">
+                                 <lb/> Effterde (inqvit) de Islender icke kunde <lb/> Øffue sig med
+                                 nogen krigs brug etc. <lb/> da beflittede de sig paa skrifft och
+                                 <lb/> dicht. Saa haffue de i gammel Tid der <lb/> paa landet sammen
+                                 shreffuet atshillige Böger <pb n="3v"/>
+                                 <lb n="1"/> 1. en liden Cosmographiam. <lb n="2"/> 2. Der Nest en
+                                 Chronologiam om alle lande <lb n="3"/> och Riger i Werden och
+                                 huilcke konger J de <lb n="4"/> besónderligste lander Regeret
+                                 haffuer, <lb n="5"/> Ind til den stoere Manddöd 1350, Och <lb n="6"
+                                 /> besönderlig huad sig disse Nordske lande <lb n="7"/> tildraget
+                                 haffuer, under huer deress Da<lb n="8"/>to och Aars tal flittich
+                                 antegnet. <lb n="9"/> [...] <lb/> [...] <lb/> [...] <pb n="4r"/>
+                                 <lb n="1"/>[...] <lb n="2"/>[...] <lb/> [...] <pb n="4v"/>
+                                 <lb n="1"/> Bóger ere och komne her til landet <lb n="2"/> (inqvit
+                                 D: Undalinus ipse Norvegus). <lb n="3"/> Lige saa haffuer de wdsatt
+                                 fransk <lb n="4"/> och Engelsk och Andre lands Historier <lb n="5"
+                                 /> paa deress Maal. <lb n="6"/> Och meste parten aff de gamle
+                                    Perg<lb n="7"/>amentis laugboger som Jnd til denne <lb n="8"/>
+                                 tid haffuer weret brugt her i landet <lb n="9"/> (Norge) de ere
+                                 skreffne paa Jsland. <lb n="10"/> Enn Welbijrdig Nordsk Mand Erich
+                                    <lb n="11"/> Broihenhus, som heden, wed Anno 1567 <lb n="12"/>
+                                 haffde Mandals len J <sic>Befalning</sic>. Sagde <lb n="13"/> Udi
+                                 sandheed att haffue seet den gan<lb n="14"/>ske Bibel wdsatt paa
+                                 Islandsk Maal <lb n="15"/> Skreffuen for 300 Aar siden. Och den <lb
+                                    n="16"/> fórste bogstaff i huer Capitel war for<lb n="17"
+                                    /><unclear>giu</unclear>ldt. </quote>
+                              <filiation type="also_in_SD1702"> Corresponds to p. 61[f. H2recto] in
+                                 the 1702 Series, but there the quote is in Latin</filiation>
+                              <note>This part references Peder Claussøn Friis's <title
+                                    type="uniform">Norriges oc omliggende Øers sandfærdige
+                                    Bescriffuelse</title> and corresponds to the tex on pp. 166–168,
+                                 but it could be actually taken from Arngrímur Jónson's Specimen
+                                 Islandiæ, Part II, Membrum II (p. 127), see Jakob Benediktsson
+                                 (1952), Arngrimi Jonae Opera Latine conscripta (vol. 3, p.
+                                 312-313).</note>
+                              <note>In AM 864 4to, f. 9v, there is a marginal note which says:
+                                 "Undalensis de Islandorum Antiqvitatibus Testimonium". This is also
+                                 identified as such in the Index to Series published in
+                                 Torfaeana.</note>
+                           </msItem>
+                           <msItem n="1.2.1.3">
+                              <locus from="5r" to="5v"/>
+                              <title type="supplied">Quote: Stephanius, <title>Notæ Uberiores in
+                                    historiam Danicam Saxonis Grammatici</title></title>
+                              <quote type="prose" xml:lang="la" rendition="antiqua"> Nihil certius
+                                 est (inqvit) qvam <lb/> olim habuisse Islandos innumeras variarum
+                                 <lb/> gentium historias, et a se, et ab aliis conscri<lb/>ptas,
+                                 qvarum tamen maxima pars injuria <lb/> temporis intercidit; qvanto
+                                 vero studio cog<lb/>noscendis aliarum nationum rebus gestis
+                                 in<lb/>cubuerint Islandi, colligere licet ex iss, qvæ <lb/> hodie
+                                 supersunt monumentis magnoq<ex>ue</ex> in pre<lb/>tio in Islandia
+                                 habentur, ut sunt. Grett<lb/>la, Niäla, Ölaffs saga, Eigla, Jalla
+                                 <lb/> saga, <unclear>Bika</unclear><!-- Gika ? --> saga,
+                                 Isfyrdijnga saga, Ban<lb/>damanna saga, Hallfreds saga, Oluff <fw
+                                    type="catchword">Tryg</fw>
+                                 <pb n="5v"/><lb n="1"/> Trygge sons saga, Rauds þættr, Eirbiggia
+                                    <lb n="2"/> Raugvallds saga. Orkneija saga, Orms sa<lb n="3"
+                                 />ga, Ragnar saga, Arnar Skalld, Knit<lb n="4"/>linga saga, Kroka
+                                 Reffs saga, Sigvat Skalld, <lb n="5"/> Wijglundar saga, Sigurds
+                                 Faffnis bana sa<lb n="6"/>ga</quote>
+                              <filiation type="also_in_SD1702">The beginning of the quote appears in
+                                 Series 1702 on page 60 [the page facing H3recto], but the list of
+                                 the sagas is omitted.</filiation>
+                              <filiation type="source">Quote taken from page 16 of <title>Notæ
+                                    Uberiores</title> (Sorø, 1645)</filiation>
+                              <filiation>The quote appears in GKS 2448 4to and includes the list of
+                                 sagas.</filiation>
+                              <note>In AM 864 4to, there is a marginal note which says "Stephnanjus
+                                 Testimonjum allegati".</note>
+                           </msItem>
+                        </msItem>
+                        <msItem n="1.2.2">
+                           <locus from="5v" to="13r">5v–13r</locus>
+                           <title type="supplied">Preface, Chapter 2</title>
+                           <rubric><lb n="8"/>SECTIO II. <lb n="9"/> De lingvæ, qva Islandorum
+                              Annales con<lb n="10"/>scripti sunt antiqvitate, et qvibus Na<lb
+                                 n="11"/>tionibus antiqvitus in usu fuerit. Con<lb n="12"/>cluditur
+                              antiqva Septentrionis mo<lb n="13"/>numenta ad ipsius tenorem et
+                                 nor<lb n="14"/>mam esse examinanda <del>: SEC. II. </del>
+                           </rubric>
+                           <incipit><lb n="15"/> Celeberrimus Wormius non uno loco moder<lb n="16"
+                              />nam Islandorum lingvam veterem Danicam <lb n="17"/>
+                              appellat</incipit>
+                           <explicit> tum pöetæ Islandi qvos in aula haubuerant, abunde probant. </explicit>
+                           <msItem n="1.2.2.1">
+                              <locus from="6v" to="6v">6v</locus>
+                              <title type="supplied">Quote: Hávamál 138.</title>
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb n="2"/> Weit, ek, at, ek, hekk, vindga, <lb/> meidi, anaitur,
+                                 allar, nio. <lb/> Geiri, vandadur, ok, gefinn, <lb/> Oþni, sialfur,
+                                 sjalfum, mier. </quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Scio me pependisse ex arbore aerea. <lb/> Noctes integras
+                                 novem <lb/> Gladio amictum et Odino datum <lb/> ipsum ipsi
+                                 mihi.</quote>
+                              <filiation type="also_in_SD1702">Not used in the same context in the
+                                 1702 Series, but used on p. 131.</filiation>
+                              <note>The poem is included in Runólfur Jónsson's <title>Linguæ
+                                    septentrionalis elementa</title> from 1651 (page A2v) where it
+                                 has a marginal note <q>Runa Capisii Stropha</q>. </note>
+                           </msItem>
+                        </msItem>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="13r" to="49r"/>
+                        <title type="supplied">Part I</title>
+                        <rubric>
+                           <lb/> PARS PRIMA <lb/> De Epocha Regni Danici. </rubric>
+                        <msItem n="1.3.1">
+                           <locus from="13r" to="17r"/>
+                           <title type="supplied">Part I, Chapter 1</title>
+                           <rubric><lb/> CAP. I <lb/> Unde Islandorum Historiæ, narrationem Suam
+                              <lb/> ordiantur. Causa affertur, cur non altius
+                              pe<lb/>netraverint.</rubric>
+                           <incipit>
+                              <lb/> Rerum Septemtrionalium Scriptores præ<lb/>cipuarum Nationum
+                              Historicos </incipit>
+                           <explicit>sed videndum an ulli scriptores Danici <lb/> his antiqviora
+                              tradant. </explicit>
+                        </msItem>
+
+                        <msItem n="1.3.2">
+                           <locus from="17r" to="37v"/>
+                           <title type="supplied">Part I, Chapter 2</title>
+                           <rubric><lb/>An Rerum Septemtrionalium Scri<lb/>ptores altius qvam
+                              Annales Islando<lb/>rum ascendant, et qvo Jure id <lb/> fiat CAP
+                              II</rubric>
+                           <incipit><lb/> Danos á Gomero Juniore Japheti pro<lb/>nepote Historiam
+                              suam pertexere dixi, </incipit>
+                           <explicit>sed qvo demum tempore id acciderit proinde inqvirendum. </explicit>
+                           <msItem n="1.3.2.1">
+                              <locus from="21r" to="21v"/>
+                              <title type="supplied">Quote: <title type="uniform">Hávamál</title>
+                                 79–80</title>
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb/> Osnotur Madur eff eignass. <lb/> getur, fe eþur fliöþs <pb
+                                    n="21v"/><lb/> mun<unclear>d0</unclear> metnaþur haunum þroass
+                                 <lb/> enn mannvit alldreige, framm <lb/> geingur hann driugur J dul
+                                 <lb/> Þat er þa reint er þu at runum <lb/> kemur enom Reigen
+                                 kunnom, þeim <lb/> er giorþo Ginreigin ok faþi fim<lb/>bulþulur, þa
+                                 heffur hann be<lb/>st er hann þeiger. </quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Ineptus homo si adipiscatur, opes et virgins amo<lb/>rem;
+                                 intumescit magis et nunqvam sapit et in ob<lb/>scuro delitescit.
+                                 <lb/> Illud tum compertum est cum ipsum de Runis <lb/> illis
+                                 Theomanticis interrogas, qvas invenerunt ma<lb/>gicis artibus
+                                 augusti Dii (Ginreigen) et pinxit <lb/> Fimbul senex (se ipsum
+                                 intelligit Othinus) silentium <lb/> ipsi convenientissimum est. </quote>
+                              <filiation>Used in the 1702 Series, p. 130.</filiation>
+                              <note>This corresponds to stanzas 79-80 in <bibl>Eddukvæði I:
+                                    Goðakvæði (2014)</bibl>.</note>
+                           </msItem>
+                           <msItem n="1.3.2.2">
+                              <locus from="22r" to="22v"/>
+                              <title type="supplied">Quote: <title type="uniform">Hávamál</title>
+                                 138–139.</title>
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb/> Weit ek at ek heck windga meidi <lb/> ä, naitur allar niu,
+                                 Geire wanda<lb/>dur ok gefenn Oþni, sialfur <lb/> sialfum mier, a
+                                 þeim meidi er <lb/> mangi weit, huers hann af Rö<lb/>tum Renn.
+                                 <lb/> Wid hleifi mik selldu ne wid hor<lb/>nigi Nysta ek nyþir nam
+                                 ek upp <lb/> Rúnar, Øpandi nam fell ek aptur þatan. <lb/>
+                              </quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Scio qvod pependi ex aerea arbore, noctes integras <pb
+                                    n="22v"/>
+                                 <lb n="1"/> novem, gladio amictus et Odino
+                                 datu<unclear>s</unclear>, ipse ipsi <lb/> mihi. in illo ligno qvod
+                                 nemo novit, unde ortum trahat. <lb/> Neq<ex>ue</ex> pane
+                                    neq<ex>ue</ex> poculo me sustentarunt, ex orati<lb/>one vallendo
+                                 auctor fui Runarum, Lachrymans <lb/> didici et denuo deridi. </quote>
+                              <filiation>Used in the 1702 Series, p. 131</filiation>
+                              <note>This corresponds to stanzas 138-138 in <bibl>Eddukvæði I:
+                                    Goðakvæði (2014)</bibl></note>
+                           </msItem>
+
+                           <msItem n="1.3.2.3">
+                              <locus from="22v" to="23r"/>
+                              <title type="supplied">Quote: <title type="supplied">Hávamál</title>
+                                 142–143</title>
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb/> Runar munt þú finna ok raþna <lb/> stafi, miok störa stafi,
+                                 miók stin<lb/>na stafi, er faþi fimbulþulur. <lb/> ok giordu
+                                 Ginreigin, ok Reist hroptur <lb/> Raugna <lb/> Oþin meþ Asom enn
+                                 for Alfum <lb/> dualin, dain duergom for, asviþor <lb/> Jotnom for,
+                                 ek Reist sialfur sumar. </quote>
+                              <quote type="translation" xml:lang="la"><pb n="23r"/>
+                                 <lb n="1"/> Runas inveines ef resolutas literas, præxgrandes
+                                 li<lb/>teras, prævalidas literas, qvas exarvit Fim<lb/>bul senex,
+                                 et formarunt Magicis artibus augusti <lb/> Dii, et Deorum augur
+                                 incidit. (sic verto hroptur). <lb/>Othinus inter Asas (Deos) inter
+                                 Faunos Dvalinus, <lb/> Dain inter Nanos, Asvidus inter gigantes,
+                                 ipse qvas<lb/>dam incidi, si ex iis qvas hi reliqvi usurparunt. </quote>
+                              <filiation>Series dynastarum 1702, p. 131.</filiation>
+                              <note>This corresponds to stanzas 142-143 in <bibl>Eddukvæði I:
+                                    Goðakvæði (2014)</bibl>. The quote also appears in <bibl>Worm,
+                                    Runir seu Danica Literatura Antiqvissima (1651)</bibl>.</note>
+                           </msItem>
+
+                           <msItem n="1.3.2.4">
+                              <locus from="24r" to="24r"/>
+                              <title type="supplied">Quote: <title type="uniform">Ynglinga
+                                    saga</title>, ch. 7</title>
+                              <quote type="prose" xml:lang="is" rendition="kurrent">
+                                 <lb/>Allar þessar Jþrotter kende han<ex>n</ex> med Runum <lb/> og
+                                 liödum þeim er Galldur heita, fyrer þuij <lb/> eru Aser kallader
+                                 Galldra smider.</quote>
+                              <quote type="translation" xml:lang="la">Omnes has artes (magicas
+                                 intelligit) per runas et Rhythmos docuit (Othinus scilicet) qvi
+                                 magici dicti <lb/> sunt, hinc Asæ rei magicæ inventores audiunt. </quote>
+                              <filiation>Series dynastarum 1702, p. 134</filiation>
+                              <note>The text correponds to <title>Heimskringla</title>, chapter 7 of
+                                    <title>Ynglingasaga</title> in <bibl>Finnur Jónsson.
+                                    Heimskringla: Nóregs konunga sǫgur af Snorri Sturluson. 1. Kbh.,
+                                    1893-1900, pp. 18–19</bibl>.</note>
+                           </msItem>
+
+                           <msItem n="1.3.2.5">
+                              <locus from="24v" to="24v"/>
+                              <title type="supplied">Quote: <title type="uniform"
+                                    >Sigrdrífumál</title> 6</title>
+
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb/> Bior færi ec þier Brinþings apalldur <lb/> magni blandinn ok
+                                 meigintiri <lb/> fullr er hann lioda ok liknstafa <lb/> godra
+                                 Galldra ok Gamanruna. </quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Cervisiam (potionem) affero-tibi loricati fori colu<lb/>mna
+                                 (inclyte heros) <sic>Magmi</sic> vi et pravalido Tyro <lb/> (Martia
+                                 efficacia, Tyr enim inter Asas Martis loco cul<lb/>tus est)
+                                 medicatam; carminibus, propitiis chara<lb/>cteribus, bona Magia et
+                                 Jucundis Runis repletam</quote>
+
+                              <filiation>Series dynastarum 1702, p. 134</filiation>
+                              <note> This text corresponds to Sigrdrífumál, stanza 6 in
+                                    <bibl>Eddukvæði II: Hetjukvæði (2014)</bibl> This section of
+                                 Sigrdrífumál concerns runic magic, explaining the use of runes in
+                                 various contexts. In stanza 6, Sigrdrifa brings Sigurd ale which
+                                 she has charmed with runes. </note>
+                           </msItem>
+
+                           <msItem n="1.3.2.6">
+                              <locus from="25r" to="27r"/>
+                              <title type="supplied">Quote: <title type="uniform"
+                                    >Sigrdrífumál</title> 14–20</title>
+
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb/> Hugruner skalltu kunna ef þu vilt <lb/> huerjom vera
+                                 gedsvinnari Guma <lb/> þær um reþ, þær ofreist, þær um <lb/> hugdi
+                                 hroptur af þeim logi er <lb/> lekid hafdi or hausi heiddroupnis
+                                 <lb/> ok or horni Hoddropnis, a Biargi <lb/> stod med Brimis
+                                 eggiar, hafdi ser <lb/> a hofþi hialm <lb/> þa mælti Mimis hofuð
+                                 frodligt <lb/> iþ fyrsta orþ ok sagþi sanna <lb/> stafi. a skildi
+                                 kuad Ristnar <pb n="25v"/>
+                                 <lb n="1"/> þeim er stendur for skinanda Goþi <lb n="2"/> a eira
+                                 arvakurs oc a alsvinns <lb n="3"/> hofi, a þui hueli er snist un<lb
+                                    n="4"/>dir Reid Raungnis, a Slepnis <lb n="5"/> tonnum ok a
+                                 sleda fiotrum. <lb n="6"/> A Biarnar hrammi ok a Braga <lb/> Tungu.
+                                 a Ulfs klom ok a Arnar <lb/> Nefi a blodgum wængium ok a <lb/>
+                                 Bruar spordi a Lausnar lofa <lb/> ok a lyknar spori. a gleri ok
+                                 gul<lb/>li ok a <sic>Guma</sic> heillum. J wini oc J wir<lb/>ti oc
+                                 wolu sessi a Gugnis oddi oc <pb n="26r"/>
+                                 <lb n="1"/> Grana Briöste. a Nornar Nagli <lb/> ok a Neffi Uglu.
+                                 <lb/> Allar woru afskafnar þær ä <lb/> woru Ristnar ok hwerffdar
+                                 wid <lb/> in helga miod ok sendar a wida we<lb/>ga þær ro med Asom,
+                                 þær ro med Alfum, sumar med wisom wau<lb/>nom sumar haffa menskir
+                                 menn. <lb/> Þat ero Bokruner, þaþ ero Biargru<lb/>ner ok allar
+                                 aulruner ok mærar <lb/> meginruner, hueim þær kna owil<lb/>tar ok
+                                 ospilltar ser at heillom haffa. <pb n="26v"/>
+                                 <lb n="1"/> Niöttu eff þú namt, wnz Riuffast Reigin. </quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Hæc juxta verborum nudam et externam signifi<lb/>cationem,
+                                 qvam tamen asseqvi despero sic in utcunq<ex>ue</ex> verto.<lb/>
+                                 Runas Cardiales callebis, si cuivis viro perfectior <lb/> fieri
+                                 velis, illas resolvit, illas exaravit, illas ex cogita<lb/>vit
+                                 Othinus, [...] <lb/> [...] <lb/> [...] <pb n="27r"/>
+                                 <lb n="1"/> sparsæ, illæ sunt inter Asas, illæ inter Alfos (faunos)
+                                    <lb n="2"/> qvædam inter Sapientes Vanos, qvasdam habent
+                                 huma<lb/>na natura præditi homines; Hæc sunt chartaceæ <lb/> runæ
+                                 (qvæ libris continentur). Hæc sunt auxili<lb/>atricer runæ et omnes
+                                 cervisiariæ runæ et subli<lb/>mes robore præpollentes runæ,
+                                    cuicunq<ex>ue</ex> illas callet <lb/> sibi in usum transferre,
+                                 non intricatæ et incorruptæ <lb/> fruere si didicisti donec Dii
+                                 disipabuntur. </quote>
+                              <filiation>Series dynastarum 1702, p.135–136, In the 1702 Series the
+                                 last two verses are missing.</filiation>
+                              <note>This corresponds to stanzas 14-20 in <bibl>Eddukvæði II:
+                                    Hetjukvæði (2014)</bibl></note>
+                           </msItem>
+
+                           <msItem n="1.3.2.7">
+                              <locus from="27v" to="28v"/>
+                              <title type="supplied">Quote: <title type="uniform">Guðrúnarkviða in
+                                    forna</title> 21–23</title>
+
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb/> førþi mer Grinhelldur full <lb/> at drekka sualt ok sarligt
+                                 ne ek <lb/> sakar mundak þat war wmm aukit <lb/> wrþar magni
+                                 sualkolldom sæ<lb/>sonar dreyra. <lb/> woru j horni hueskins
+                                 staffer <lb/> Ristnir ok roþnir rada ek ne mat<lb/>tak, lingfiskar
+                                 langir lands had<lb/>dingia, ax öskored, Jnnleid dyra. <lb/> Woro
+                                 þeim Biöri ból morg samann <pb n="28r"/>
+                                 <lb n="1"/> wet alls wiþar ok akarnin, wmm <lb/> daug arins Jörar
+                                 Blotnir, svins <lb/> liffur soþinn, þuiat hon sakar deiffþi. </quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Porrexit mihi Grimhillda poculum bibere <lb/> (Græcismus hic
+                                 cernitur) algidum et ulcerosum, nec <lb/> offensas memini, id
+                                 terrestri valentia auctum <lb/> (repletum) erat nimis frigido mari
+                                 et filii cruore. <lb/> Illud cornu continebat omnis generis
+                                 characte<lb/>res, sculptos et rubefactos, nec resolvere (eos)
+                                 po<lb/>tui, longos pisces tiliceos, regionis Haddingo<lb/>rum,
+                                 paleas non excisas, ingressum animalium. <lb/> Multis ærumnis illa
+                                 cervisia mixta fuit, flori<lb/>omnis ligni (sic enim verto donec
+                                 melius instructus fuero) <lb/> et glandi, vetustisimæ pluviæ et
+                                 uvidis eqvis <lb/> cocto porci hepati, qvia illud causas mitigabat. </quote>
+                              <filiation>Series dynastarum 1702, p. 138–139.</filiation>
+                              <note>This corresponds to stanzas 21-23 of Guðrúnarkviða II in
+                                    <bibl>Eddukvæði II: Hetjukvæði (2014)</bibl>. “Voru í því horni
+                                 ” also corresponds to two stanzas from Rafn’s edition of Völsunga
+                                 saga, p. 207.</note>
+                           </msItem>
+
+                           <msItem n="1.3.2.8">
+                              <locus from="29r" to="29v"/>
+                              <title type="supplied">Quote: <title type="uniform">Ynglinga
+                                    saga</title>, ch. 6</title>
+
+                              <quote type="prose" xml:lang="is" rendition="kurrent">
+                                 <lb n="16"/> Þä er Asa Oþin kom ä Norþur laund, oc meþ <lb n="17"/>
+                                 honum Diar, er þat sagt meþ sannindom at þeir <lb n="18"/> hoffo oc
+                                 kendo iþrotter, þær er Menn haffa leingi <lb n="19"/>
+                                    siþan<ex>n</ex> medfaret.</quote>
+                              <quote type="translation" xml:lang="la"> qvo tempore Asarum Othi<lb
+                                    n="20"/>nus cum Diis in arctoas regiones venit, vere re<lb
+                                    n="21"/>latum est, qvod ii in dux erint et docuerint eas ar<pb
+                                    n="29v"/><lb n="1"/>tes, qvas homines longo tempore postea
+                                 exerruerant</quote>
+
+                              <filiation>Series dynastarum 1702, p. 140.</filiation>
+                              <note> This text corresponds to chapter 6 in <bibl>Finnur Jónsson,
+                                    Heimskringla: Nóregs konunga sǫgur af Snorri Sturluson. 1. Kbh.,
+                                    1893-1900, pp. 16—17. </bibl></note>
+                           </msItem>
+
+
+                           <msItem n="1.3.2.9">
+                              <locus from="29v" to="30r"/>
+                              <title type="supplied">Quote: <title type="uniform">Ynglinga
+                                    saga</title>, ch. 6</title>
+
+                              <quote type="prose" xml:lang="is" rendition="kurrent">
+                                 <lb n="16"/> Oþin<ex>n</ex> war goffgastur aff óllum, ok aff honum
+                                    nä<lb n="17"/>mu þeir allar Jþrotternar, þui at han<ex>n</ex>
+                                 kunne fyrst <lb n="18"/> allar oc þö flestar. <q xml:lang="la">et
+                                    paulo post</q>
+                                 <lb n="19"/> Hann talade suo sinallt oc slett, at ollom er ä <lb
+                                    n="20"/> heirþo, þötte þat eina satt; mællte hann allt =hen<pb
+                                    n="30r"/><lb n="1"/>dingom, sua sem nu er þat kueþit er
+                                    Skalldska<lb n="2"/>pur heitir. Han<ex>n</ex> oc Hoffgoþar hanns
+                                 heita <lb n="3"/> Liöþa smiþir, þuijat su Jþrött hoffst aff þeim
+                                    <lb n="4"/> J Norþur Laundum. </quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb n="5"/> Othinus omnium fuit præstantissimus, et cæteri <lb
+                                    n="6"/> omnes artes ab eo didicerunt, qvia is primum omnes <lb
+                                    n="7"/> calluit, et tamen plurimas; (id est plures qvam alios
+                                    do<lb n="8"/>cuit). Is tam lepide et diserte locutus est <lb
+                                    n="9"/> ut omnes qvi audiebant, hoc unice approbarent, et o<lb
+                                    n="10"/>mnia Hemistichiis effatus est, qvem ad modum id <lb
+                                    n="11"/> concinnatum conspicitur, qvod poesis dicitur, ille <lb
+                                    n="12"/> et ejus augures dicu<ex>n</ex>tur carminum authores,
+                                 qvia <lb n="13"/> ars illa ab ipsis exorta est in Septemtrione. </quote>
+
+                              <filiation>Series dynastarum 1702, p. 142.</filiation>
+                              <note> This text corresponds to chapter 6 in <bibl>Finnur Jónsson,
+                                    Heimskringla: Nóregs konunga sǫgur af Snorri Sturluson. 1. Kbh.,
+                                    1893-1900, pp. 16—17. </bibl></note>
+                              <note/>
+                           </msItem>
+
+                           <msItem n="1.3.2.10">
+                              <locus from="30r" to="30v"/>
+                              <title type="supplied">Quote: <title type="uniform">Höfuðlausn</title>
+                                 1</title>
+                              <quote type="poetry" xml:lang="is" rendition="kurrent">
+                                 <lb n="18"/> Westur for ek wm<ex>m</ex> wer, En<ex>n</ex> eg
+                                 Asidris ber, <lb n="19"/> munstrindar mar. </quote>
+                              <quote type="translation" xml:lang="la"><lb n="20"/>Ex occidente veni,
+                                 ast Othini fero memorialis re<pb n="30v"/><lb n="1"/>gionis mare. </quote>
+                              <filiation>Series dynastarum 1702, p. 142</filiation>
+                              <note>Höfuðlausn or the "Head's Ransom" is a skaldic poem attributed
+                                 to Egill Skalla-Grímsson in praise of king Eirik Bloodaxe. It is
+                                 cited in Egils Saga (chapter 61), which states that he created it
+                                 in the span of one night. </note>
+                           </msItem>
+
+                           <msItem n="1.3.2.11">
+                              <locus from="30v" to="30v"/>
+                              <title type="supplied">Quote: <title type="supplied"
+                                    >Höfuðlausn</title> 2 (part)</title>
+
+                              <quote type="poetry" xml:lang="is" rendition="kurrent">
+                                 <lb n="2"/> Ber ek Oþins miod (Othini mulsum) ä Eingla Biöd. </quote>
+                              <quote type="translation" xml:lang="la"><lb n="3"/> spargo Othini
+                                 mulsum in Anglorum Regem</quote>
+                              <filiation>Series dynastarum 1702, p. 143</filiation>
+
+                           </msItem>
+
+                           <msItem n="1.3.2.12">
+                              <locus from="31r" to="31v"/>
+                              <title type="supplied">Quote: <title type="uniform">Ynglinga
+                                    saga</title>, ch. 8</title>
+
+                              <quote type="prose" xml:lang="is" rendition="runic"> Oþin sette laug i
+                                 landi sino, þau er ge<lb/>ingid haufþo fyr meþ asom. Sva <lb/>
+                                 setti hann ad alla dauþa menn skil<lb/>di brenna, ok bera a bal med
+                                 þeim <lb/> eign þeirra sagþi hann sva at med <lb/> þilikom audefum
+                                 skilldi huer koma <lb/> til Walhallar sem hann heffdi ä bäl <pb
+                                    n="31v"/><lb n="1"/> þess skilldi hann niota er hann <lb/> hann
+                                 heffþi J Jord grafit, enn au<lb/>skuna skilldi bera a sio edur
+                                 gr<lb/>afa nidur i Jord. enn epter Gaufga <lb/> Menn skillde giora
+                                 haug til Minn<lb/>ingar, enn epter alla þa er Nakkvad <lb/> Mansmöt
+                                 war at skillde Reisa bau<lb/>tasteina ok hellst sia sidur leinge
+                                 sidan</quote>
+                              <quote type="translation" xml:lang="la"><note>Translation together
+                                    with the following quote.</note></quote>
+                              <filiation>Series dynastarum 1702, p. 143–144</filiation>
+                           </msItem>
+
+                           <msItem n="1.3.2.13">
+                              <locus from="31v" to="32r"/>
+                              <title type="supplied">Quote: <title type="uniform">Ynglinga
+                                    saga</title>, ch. 9</title>
+
+                              <quote type="prose" xml:lang="is" rendition="runic">
+                                 <lb/> Oþin war brendur daudur ok war <lb/> su Brenna allvirduglig
+                                 gior ok <lb/> allvegleg þat war trua þeirra, at <pb n="32"/><lb
+                                    n="1"/> þi hærra sem Reikin leggur J <lb/> lopt upp, þi
+                                 haleitare war sä <lb/> a himnom er Brennuna atti, ok <lb/> þess
+                                 audgari er meira fe brann <lb/> med honom</quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Odinus easdem leges in regno suo (Svecia) sancivit, <lb/> qvæ
+                                 inter Asianos in usu fuerant, is injunxit, út o<lb/>mnes mortui
+                                 cremarentur, et qvæ posiderent in nu<lb/>trimentum rogi
+                                 transmitterent, unumqvemq<ex>ue</ex> iisdem <lb/> opibus instructum
+                                 ad aulam Valicam perventurum <lb/> pollicitus, qvas secum in rogum
+                                 conferret, et qvan<lb/>tumcunq<ex>ue</ex> terris abdiderit illud
+                                 usui ipsius pro<lb/>inde cessurum. Cineres autem in mare dejiciant
+                                 <lb/> terræ infodi. Sed in memoriam illustrium vivorum <lb/> colles
+                                 erigi mandavit; qvi vero fortes et alacres <lb/> fuissent, nec út
+                                 cæteri illustres, eos Saxis pro tro<lb/>phæis erectis contentos
+                                 esse Jussit; qvi ritus longo tempore duravit. et paulo post. <pb
+                                    n="32v"/>
+                                 <lb n="1"/> Odinus fato functus crematus est, et ipsius rogus <lb
+                                    n="2"/> qvam magnificentissime ornatus fuit; nam credide<lb
+                                    n="3"/>runt, qvo altius fumus in aera penetraret, eo ho<lb n="4"
+                                 />norationem locum in cælo eum qvi cremaretur, <lb n="5"/>
+                                 occupaturum, atq<ex>ue</ex> eo opulentiorem futurum, qvo <lb n="6"
+                                 /> plus secum rogo imposuerit. <lb n="7"/>
+                              </quote>
+
+                              <note>Series dynastarum 1702, p. 143–144 (Lib. II, Cap. IV).</note>
+
+                           </msItem>
+
+                           <msItem n="1.3.2.14">
+                              <locus from="37v" to="37v"/>
+                              <title type="supplied">Quote: <title type="uniform">Upphaf allra
+                                    frásagna</title> (<title type="uniform">Skjöldunga
+                                 saga</title>)</title>
+                              <quote type="prose" xml:lang="is" rendition="runic">
+                                 <lb n="7"/> ad upphaf allra frasagna i Nor<lb/>rænni tungu þeirra
+                                 ed sanninde fil<lb/>gia hefiest þa er Tyrkiar ok Asia<lb/>menn
+                                 bygþo Norþid.</quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> qvod principium omnium Historiarum, qvæ <lb/> Norvegica
+                                 (Danica, nam hoc indifferens est) lingva <lb/> consciptæ extant, et
+                                 veris relationibus innituntur, <lb/> incipat ab eo tempore, qvo
+                                 Turcæ et Asiani Sep<lb/>temtrionem incoluerunt, sed qvo demum
+                                 tempore <lb/> id acciderit prinde inqvirendum.</quote>
+                              <note>Series dynastarum 1702, p. 264. (Lib. III, Cap. IV)</note>
+                              <note>This corresponds to the beginning of the text in
+                                    <bibl>Danakonunga sögur, ÍF 35, p. 39.</bibl></note>
+                           </msItem>
+                        </msItem>
+
+                        <msItem n="1.3.3">
+                           <locus from="38r" to="49r"/>
+                           <title type="supplied">Part I, Chapter 3</title>
+                           <rubric><lb/> CAP III. <lb/> De Othiniana et Asianorum Im<lb/>migrationis
+                              Epocha. </rubric>
+                           <incipit><lb/> Tempus qvo Othinus in Septemtrionem pervenit, <lb/> tam ex
+                              Edda, qvam Chronico Norvegico haberi po<lb/>test </incipit>
+                           <explicit>
+                              <lb/> Temporis titulo res Septemtrionales, qvæ <lb/> Historicis
+                              monumentis continentur, depen<lb/>deant. </explicit>
+                           <msItem n="1.3.3.1">
+                              <locus from="39v" to="40v"/>
+                              <title type="supplied">Quote: <title type="uniform"
+                                    >Skáldskaparmál</title> 52 (or <title type="uniform"
+                                    >Gróttasöngr</title>)</title>
+
+                              <quote type="prose" xml:lang="is" rendition="runic"> Skiolldur hiet
+                                 son Oþins, er Skioll<lb/>dungar ero frä komner, hann haff<lb/>þi
+                                 adseto ok med laudom þar sem <lb/> nu er kallat danmork enn þa war
+                                 <lb/> kallat Gotland. <sic>Skiolldor</sic> atte <lb/> þann son er
+                                 Fridleiffur het er <lb/> laundom med epter hann. Sonur <pb n="40"
+                                    /><lb n="1"/> Fridleiffs het Froþi, hann tok kong<lb/>dom epter
+                                 faudur sin J þann tid <lb/> er Augustus keisare lagþi friþ <lb/> of
+                                 heim allan þa war kristur bo<lb/>rinn. Enn fyrer þui at Froþi war
+                                 <lb/> allra konga Rikastur a Norþor <lb/> laundom, þa war honom
+                                 bendur fri<lb/>þurin wm alla danska Tungo, ok kalla <lb/> Norþmenn.
+                                 þat <w type="variant">Froþafrid</w>. Eingi Mann <lb/> grandadi
+                                 auþrom, þött hann hitti fy<lb/>rer ser faudur bana edir Brodur
+                                 bana. <lb/> lausan eþur Bundinn. þa war ok ein<pb n="40v"/><lb
+                                    n="1"/>gi þiofur ur Ransmenn, sua at Gul<lb/>lhringur eirn la a
+                                 Jalangurs heiþi <lb/> leinge. </quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Skioldus nuncupabatur Othini filius, ex qvo <lb/>
+                                 Skioldungorum prosapia descendit, is aulam ha<lb/>buit et regnum
+                                 moderabatur, qvod nunc Danmar<lb/>kia tunc Gotlandia (Gothia)
+                                 vocabatur. <lb/> Skioldo filius fuit Fridlefus nomine, qvi
+                                 regna<lb/>bat post eum. Fridlefi filius Frotho dictus <lb/> est qvi
+                                 Regiam potestatem post patrem assuinsit, <lb/> qvo tempore cæsar
+                                 Augustus pacem toti mundo in<lb/>dixit, tunc Christus natus est.
+                                 Sed propterea, <lb/> qvod Frotho omniam Septemtrionalium Regum
+                                 <lb/> longe potentissimus fuit, adscripta est illi hæc pax <lb/>
+                                    qvousq<ex>ue</ex> Danica lingva se extendebat; Hanc pacem <lb/>
+                                 Nordmanni Frothonis pacem appellant. Nemo <lb/> alteri nocebat
+                                 etiamsi patris sui aut fratris occiso<lb/>rem liberum sive vinctum
+                                 obviam haberet, nec <lb/> ullus fur aut latro inventus est, ad eo
+                                 annulus <pb n="41r"/><lb n="1"/> aureus longo tempore in tesqvis
+                                 Ialangurensibus <lb n="2"/> impune Jaceret.</quote>
+                              <filiation>No direct reference in the 1702 Series, p. 265 (Lib. III,
+                                 Cap. IV)</filiation>
+                              <note>Chapter 52 of Skáldskaparmál or introduction to
+                                 Gróttasöngr.</note>
+                           </msItem>
+                        </msItem>
+                     </msItem>
+
+
+
+                     <msItem n="1.4">
+                        <locus from="49v" to="196v"/>
+                        <title type="supplied">Part II</title>
+                        <msItem n="1.4.1">
+                           <locus from="49v" to="52r"/>
+                           <title type="supplied">Part II, Introduction</title>
+                           <rubric>
+                              <lb/> PARTIS SECUNDÆ Prolegomena </rubric>
+                           <incipit>
+                              <lb/> Huc usq<ex>ue</ex> Regni Danici æram investigavi, qva<lb/>tenus
+                              ex Islandorum Historicis monumentis habe<lb/>ri potuit</incipit>
+                           <explicit> unde patet minimam illum portionem <lb/> ex nostris
+                              antiqvitatibus Consecutam esse. Sed ad rem.</explicit>
+                        </msItem>
+                        <msItem n="1.4.2">
+                           <locus from="52r" to="59v"/>
+                           <title type="supplied">Part II, Chapter 1</title>
+                           <rubric>
+                              <lb/> De. <lb/> SCHIOLDO Primo Daniæ Mo<lb/>narcha. <lb/> CAP
+                              I</rubric>
+                           <incipit>
+                              <lb/> Celeberrimum Daniæ Regnum Gothiam olim in <lb/> universum dictum
+                              fuisse constat </incipit>
+                           <explicit>
+                              <lb/> paucos tamen e Regum Catalogo excludunt; <lb/> qvare cum res
+                              exigit singulis suam locum de<lb/>putabo; hic attigisse satis est.
+                           </explicit>
+                        </msItem>
+                        <msItem n="1.4.3">
+                           <locus from="59v" to="72r"/>
+                           <title type="supplied">Part II, Chapter 2</title>
+                           <rubric><lb/> CAP: II. <lb/> De Fridlefo; Frothone Pacifico,
+                              Hiarno<lb/>ne poeta; Fridlefo, Havardo Hand<lb/>ramme, Frothone et
+                              Vermundo Sa<lb/>piente Daniæ Schioldungis seu <lb/> Monarchis. </rubric>
+                           <incipit><lb/> Schioldus primus Daniæ Dynasta filium habuit <pb n="60r"
+                                 /><lb n="1"/> Fridlefum non tamen Celerem dictum, Frothonis <lb/>
+                              Pacifici patrem </incipit>
+                           <explicit> licet hi omnes qvorum seriem hucusq<ex>ue</ex> per<lb/>texui
+                              illo Titulo abstinuerint. ad reliqvos igitur me <lb/> conferam. </explicit>
+
+                           <msItem n="1.4.3.1">
+                              <locus from="56v" to="56v"/>
+                              <title type="supplied">Quote: <title type="uniform">Ynglinga
+                                    saga</title>, ch. 18</title>
+                              <quote type="prose" xml:lang="is" rendition="kurrent"> J þann Tyma war
+                                 sä Höf<lb/>dinge Gramur kalladur er heriade, em
+                                    he<unclear>r</unclear><lb/>menn Gramer </quote>
+                              <quote type="translation" xml:lang="la"> Illo tempore qvilibet
+                                 Prin<lb/>ceps qvi bello præfuit Gram dictus est, milites
+                                    <unclear>00</unclear> Gramer</quote>
+                           </msItem>
+
+                           <msItem n="1.4.3.2">
+                              <locus from="63r" to="63v"/>
+                              <title type="supplied">Quote: <title type="uniform">Hyndluljód</title>
+                                 1–3</title>
+
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb/> Waki mær meya waki min wina <lb/> hyndla syster er J helle
+                                 Byr <lb/> Nu er Rauk raukra riþa wid skulum, <lb/> walhallar til ok
+                                 wess heilags <lb/> Bidiom Heriafauþur J hugom sitia <lb/> hann
+                                 geffur ok gelldur Gull werþigom, <lb/> Gaff hann hermoþi hiälm ok
+                                 Brynio <lb/> Enn Sigmundi suerd at þiggia <lb/> Gefur han sigur
+                                 sonom en sumom aura <lb/> melsko maurom ok mannvit firom <pb
+                                    n="63v"/><lb/> Byre Braugnom enn Brag skalldom. <lb/> Geffur
+                                 hann mannseme maurgom hrecki. </quote>
+                              <quote type="translation" xml:lang="la"><note>Together with the
+                                    following quote</note></quote>
+                              <note>Series dynastarum 1702, pp. 257-258 (Lib. III, Cap. IV).</note>
+                              <note>Hyndluljóð or Lay of Hyndla is an Old Norse poem often
+                                 considered a part of the Poetic Edda. It is preserved in its
+                                 entirety only in Flateyjarbók but some stanzas are also quoted in
+                                 the Prose Edda where they are said to come from Völuspá hin skamma.
+                              </note>
+                           </msItem>
+                           <msItem n="1.4.3.3">
+                              <locus from="63v" to="64r"/>
+                              <title type="supplied">Quote: <title type="uniform">Hyndluljód</title>
+                                 8-11</title>
+
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb/> Sennom wiþ or saudlom sitia wiþ skulom <lb/> ok wm Jofra
+                                 Aitter dæma <lb/> Guma þeirra er fra Goþom koma <lb/> Þeir hafa
+                                 weþi at wala malmi <lb/> Ottar ungi ok Angantijr <lb/> skilt er at
+                                 weita sua at skate en<ex>n</ex> wnge <lb/> fauþorleifþ hafe epter
+                                 frendor sina <lb/> haurg hann mer giorþi hlaþin steinom <pb
+                                    type="64r"/>
+                                 <lb/> Nu er Griöt þat at glere worþit <lb/> Raud hann J Nio Nauta
+                                 blöþi <lb/> ei truþi Ottar a Asinior <lb/> Nú lattu forna niþia
+                                 talda <lb/> ok upp bornar ætter manna <lb/> huat er Skiolldunga,
+                                 huat er Skilfinga, <lb/> huat er Ylfinga, <lb/> huat er hauldborid,
+                                 huat er hersborit mest manna wal wnd Miþgarþi </quote>
+                              <quote type="translation"><note>Together with the following
+                                    quote</note>
+                              </quote>
+                              <note>Series dynastarum 1702, pp. 259-260.</note>
+                           </msItem>
+
+                           <msItem n="1.4.3.4">
+                              <locus from="64r" to="65r"/>
+                              <title type="supplied">Quote: <title type="uniform">Hyndluljód</title>
+                                 23</title>
+
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb/> Ami ok Omi woru bornir Arngrimi siner ok Eifuru <pb n="64v"
+                                 /><lb/> Braukin berserkia bauls margs konar <lb/> um lond ok wm log
+                                 sem logi færi, <lb/> alt er þat æitt þin Ottar heimske<lb/>
+                              </quote>
+                              <quote type="translation" xml:lang="la"><lb/> Vigilet qvæso tenerrima
+                                 virgo, vigilet amica mea <lb/> soror mea Hyndla qvæ antrum
+                                 inhabitat, Jam <lb/> crepusculascens vesper agitur, nos ad aulam
+                                 Valicam <lb/> eqvitabimus, et versum sanctum. <hi>Seqvitur poetis
+                                    usitata ad Deos Apostrophe qvæ ipso<lb/>rum laudes
+                                    decantat.</hi>
+                                 <lb/> Oremus Patrem exercituum (Odinum intelligit) ut <lb/> animis
+                                 nostris illabatur, is cuiq<ex>ue</ex> juxta merita aurum <lb/>
+                                 impertit, et Hermodum qvidem Casside et lorica Sig<lb/>mundum vero
+                                 ense donavit. <lb/> Filios suos victoria beat, alios autem opibus,
+                                 alios <lb/> elogventia alios sapientia, aliis secundos ventos,
+                                 providet, poetis singullarem venam et genium Sug<lb/>gerit,
+                                 qvorundam etiam pectoribus Heroicum <lb/> animum inflat. <hi>Ad
+                                    propositum deinde festinat et deam hoc modo alloqvitue</hi>
+                                 <pb n="65r"/><lb n="1"/> [...] <lb n="2"/> [...] <lb/> [...] <lb
+                                    n="17"/> Amo et Omo ex Arngrimo et Eifura nati sunt <lb n="18"/>
+                                    atq<ex>ue</ex> Branchus athleta multorum malorum au<lb n="19"
+                                 />thor, qvi flammæ instar ferras et maria pergra <lb n="20"/>runt;
+                                 Omnes hi cognatione te allingunt Ottare stulte.</quote>
+                              <filiation>Not included in Series dynastarum 1702. Instead there is
+                                 stanza 12 included in 1702 version.</filiation>
+                           </msItem>
+
+                           <msItem n="1.4.3.5">
+                              <locus from="66r" to="66v"/>
+                              <title type="supplied">Quote: <title type="uniform">Helgakvíða</title>
+                                 10</title>
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb/> Skamt let wisir wigs bida <pb n="66v"/><lb n="1"/> þä er
+                                 filker war fimtan wetra <lb/> ok hann hardan<ex>n</ex> let Hunding
+                                 weigen <lb/> þann er leinge red laundom ok þegnom</quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Rex (Helgonem intelligit) in longum tempus cædem <lb/> non
+                                 distulit, nam cum qvindecim annos natus <lb/> esset, generosum
+                                 Hundingum occidit, qvi Regn<unclear>o</unclear>
+                                 <lb/> et populos per longum tempus moderatus est.</quote>
+                              <filiation>Series dynastarum 1702, p. 264.</filiation>
+                           </msItem>
+
+                           <msItem n="1.4.3.6">
+                              <locus from="66v" to="70v"/>
+                              <title type="supplied">Quote: <title type="uniform">Sögubrot</title>,
+                                 ch. 9</title>
+                              <quote type="prose" xml:lang="is" rendition="kurrent">
+                                 <lb/> Upphaff allra fräsagna j Norænne Tungo <lb/> þeirre er
+                                 sanninde fylgia, höffst þä er Tyr <lb/>
+                                 <fw>ker</fw>
+                                 <pb n="67r"/>
+                                 <lb n="1"/>ker og Asiæ Menn bygdu Nordred, þuij er <lb n="2"/> þad
+                                 med sónnu ad seigia, ad Tungan kom <lb/> med þeim Nordur hijngad,
+                                 er wier kóllum <lb/> norrænu, og geck su Tunga wm Saxland, <lb/>
+                                 Danmork og Svijþiöd, Noreg og wm Nockurn <lb/> hluta Einglands.
+                                 Hoffuds Madur þessa <lb/> folks war Odin<ex>n</ex> son Þörs,
+                                    han<ex>n</ex> atte Mar<lb/>ga sonu, Til Odins telia Marger ætter
+                                 <lb/> sijnar, Han<ex>n</ex> skipade sonum<ex>m</ex> sijnum til
+                                 <lb/> landa og giorde Hoffdingia. Eirn aff <lb/> sonum<ex>m</ex>
+                                 hanss er Neffndur Skiolldur, sa er <lb/> land tök sier þad er nu
+                                 heiter Danmork <lb/> Enn þä woru þesse lond er Asia Men<ex>n</ex>
+                                 bijgdu <lb/> kollud Godlond, en<ex>n</ex> fölked <sic>GodJod</sic>,
+                                 þar <lb/> woru sett endemork mille Skialldar og <lb/> Jngfreys
+                                 Brödur hanss er þad Rijke <lb/> bygde er nu kalla Men<ex>n</ex>
+                                 Svijarijke. Odin<ex>n</ex>
+                                 <lb/> og hans sijner woru störum<ex>m</ex> witrer Og <lb/>
+                                 fiolkunniger, fagrer ad älitum<ex>m</ex> og <lb/> sterker ad affle.
+                                 Marger adrer j þeirra <lb/><fw>ætt</fw>
+                                 <pb n="67v"/><lb n="1"/> Ætt woru mÿkler affburdamen<ex>n</ex> med
+                                 jmisle <lb n="2"/>gum allgiórleik, og nockurn aff þeim töku <lb/>
+                                 menn til ad Blota, og Trua ä, og kolludu <lb/> God sijn. Skiólldur
+                                 war mióg agiætur og <lb/> haffde under sier <s type="variant_major"
+                                    >mijked Rijke, Manna Rij <lb/>ke war og mijked, og fridur
+                                    gödur</s><!-- VARIANT --> Han<ex>n</ex>
+                                 <lb/> atte eirn son er Leiffur hiet, þuij ad hann <lb/> leiffde
+                                    hónum<ex>m</ex> land og lausafe, A hannss <lb/> dógum<ex>m</ex>
+                                 war so godur fridur, ad J hans <lb/> Rijke ward ecke wijg, og fyrer
+                                 þuij war <lb/> han<ex>n</ex> kalladur Fridleiffur, Han<ex>n</ex>
+                                 war hin<ex>n</ex>
+                                 <lb/> meste spekingur. Hans son war Fröde <lb/> han<ex>n</ex> war
+                                 suo witur og margkun<ex>n</ex>ugur, ad <lb/> aff hans naffne er sä
+                                 huor frödur kalla <lb/>dur er <w type="variant"
+                                 >witur</w><!-- VARIANT --> er. A dógum<ex>m</ex> froda war <lb/>
+                                 suo mijkell fridur, ad einge willde Mann <lb/> drepa. þö ad <w
+                                    type="variant">han<ex>n</ex></w><!-- VARIANT --> sæe fyrer sier
+                                    bunden<ex>n</ex>
+                                 <lb/> fódurbana sin<ex>n</ex> edur Brodur. Þä laug <lb/>dust nidur
+                                 rän og stuldur, sua at Gull <lb n="20"/>hrijngur lä marga wetur ä
+                                 þjödleid A <lb/>
+                                 <fw>Jal</fw>
+                                 <pb n="68r"/>
+                                 <lb n="1"/> Jalangurs heide, þad er Ætlan Manna <lb n="2"/> þä er
+                                    <sic>Fridfröde</sic> war, ad i þan<ex>n</ex> tijma <lb n="3"/>
+                                 wære J Romaborg Augustus keisare, <lb/> sa er Frid sette wm
+                                    allan<ex>n</ex> heim. þä <lb/> war Kristur boren. þä er Fridfrö
+                                 <lb/>de Red Rijkenu, war Aar suo mijked, <lb/> ad Akrar wrdu
+                                 siälffsäder, og þurffte <lb/> ej wid wetri ad buast, og þä
+                                    fan<ex>n</ex>st J <lb/> Jórdu Allskonar Mälmur. Þad war <lb/> ä
+                                 einu Are þä er Frode war gamall, <lb/> ad Reidar þrumur komu störar
+                                 og Ell <lb/>dingar, þä huarff söl aff heimne og <lb/> skalff Jórd,
+                                 suo ad biórg hrutu wr stad <lb/> og þä kuomu Bjórg wr Jórdu, og
+                                 will <lb/>tust aller spädomar</quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Omnes Historiæ, qvæ veris relationibus in<lb/>nituntur ab
+                                 illo tempore deducuntur qvo Tur<lb/>cæ et Asiatici septemtrionem
+                                 inhabitare <lb n="19"/> cæperunt; lingvam ergo qvam Norvegi<pb
+                                    n="68v"/><lb n="1"/>cam appellamus ab illis in Septemtrionem
+                                    in<lb n="2"/>troductam esse, vera relatio est, qvæ per <lb n="3"
+                                 /> Saxoniam, Daniam, Sveciam, Norvegiam et <lb n="4"/> aliqvam
+                                 Angliæ partem usurpabatur. Hajus <lb n="5"/> populi Princeps fuit
+                                 Othinus Thori filius <lb/> (NB Othinum nunc Thori, nunc Rori, nunc
+                                 Frou<lb/>lafi et interdum Firni filium dici, causa est no<lb/>minum
+                                 multitudo, qva qvilibet Magnatum qvasi <lb/> honorariis Titulis
+                                 gaudebat, id qvod in ipso O<lb/>thino, qvi ultra centum nominibus
+                                 insignitur, et <lb/> reliqvis Asianis videre est) qvi multos filios
+                                 <lb/> habuit; ad hunc Othinum multi genus su<lb/>um referunt, is
+                                 regiones inter filios suos <lb/> divisit, qvos earum Principes
+                                 creavit; unus <lb/> ex filiis ejus Skióldus dictus est, qvi
+                                 il<lb/>lam regionem occupavit qvæ nunc Dania <lb/> dicitur; Sed
+                                 tunc Regiones qvas Asæ <lb/> incoluerunt Godlandiæ, et nationes
+                                 God<lb/>thiod appellabantur (id est Divina natio, Goth: <lb/> enim
+                                 Deum significat thiod nationem, sive ma<pb n="69r"/><lb n="1"/>vis
+                                 Goth-Jod, id est Deorum soboles, Jod enim <lb/> prolem significat.
+                                 Sic Asiam divinum <unclear>so</unclear>lum <lb/> verit Gudmundus
+                                 Andreas, eo qvod As pri<lb/>sca corum lingva, qvæ huc ex Asia
+                                 defluxit <lb/> Deum significet, unde Asiam divina natio, <lb/>
+                                 plausibile igitur Othinum ex priscis illis Go<lb/>this cum
+                                 Trojanorum posteris commixtis ori<lb/>ginem duxisse) Termini
+                                 constituti sunt <lb/> inter Schioldum er Ingefreyr fratrem <lb/>
+                                 ipsius (cognatum potuis, nam prisca lingva <lb/> cognatos etiam
+                                 fratres appellabant, qvod eti<lb/>am Islandi adhuc faciunt) qvi
+                                 illud regnum <lb/> tenuit, qvod nunc Svijarijki Svethiam <lb/>
+                                 (primitus namq<ex>ue</ex> Svithiod Svetica natio dice<lb/>batur)
+                                    appell<del>ab</del>ant. Othinus et filii <lb/> ejus admodum
+                                 sapientes erant et multi<lb/>scii, formæ et roboris majestate
+                                 pariter in<lb/>signes; multi etiam eorum cognati variis <lb/>
+                                 naturæ dotibus inclyti fuerunt, qvorum <lb/> aliqvibus homines
+                                 Sacrificare et eorum Re<pb n="69v"/><lb n="1"/>ligione duci
+                                 cæperunt, qvos Deos appellarunt. <lb n="2"/> Skioldus perqvam
+                                 magnificus, vasto imperio <lb n="3"/> et magno populi numero cum
+                                 pace præfu<lb/>it; Is filium habuit leifum diotum, qvod <lb/> ei
+                                 tam Regnum qvam cæteras opes reliqve<lb/>ret (NB Leifur relliqvias
+                                 significat) illo inipe<lb/>rante adeo tuta pax vigebat, ne homici
+                                 dum <lb/> patraretur, inde etiam Fridlefus dictus est, <lb/> qvi et
+                                 Sapientissimus extitit; illius filius fu<lb/>it Frothe (Frotho) qvi
+                                 ad eo sapiens et mul<lb/>tiscius fuit ut ab illo qvilibet
+                                 polihistor Fro<lb/>dur (Frothonius) dicatur. Sub illo tanta pax
+                                 <lb/> viguit, ut nemo hominem occidere præsume<lb/>ret, etiam si
+                                 patris sui aut fratris occiso<lb/>rem vinctum offenderet; Tunc
+                                 furta et la<lb/>trocima sopita sunt, adeo ut aureus annu<lb/>lus in
+                                 desertis Jalangurensibus in publica <lb/> via projectus, multos
+                                 annos impune jacuerit. <pb n="70r"/><lb n="1"/> Creditum est ea
+                                 tempestate qva Frotho <lb/> Pacificus floruit, qvod Cæsar Augustus,
+                                 <lb/> qvi pacem toto orbe fundavit ad Roma<lb/>na sceptra sederit,
+                                 tunc Christus natus <lb/> est. Cum Frotho imperii habenas
+                                 mo<lb/>deratus est tanta fertilitas viguit, ut agri <lb/>
+                                    absq<ex>ue</ex> satione fructum ferrent, nec hyems <lb/>
+                                 metuenda esset; tunc etiam omnis generis metalla terra produxit.
+                                 Cum Frotho <lb/> ætate provectus esset, accidit qvodam anno, <lb/>
+                                 ut ingentia tonitrua et stupenda fulgura <lb/> audita sint, tunc
+                                 etiam sol occultabatur <lb/> et terra tremuit, adeo ut rupes loco
+                                 move<lb/>rentur, tunc Saxa e terra emerserunt, et omnes prophetiæ
+                                 obscurabatur. </quote>
+                              <filiation>Serries dynastarum 1702, pp. 266–267 (Lib III, Cap.
+                                 IV).</filiation>
+                           </msItem>
+                        </msItem>
+                        <msItem n="1.4.4">
+                           <locus from="72r" to="101r"/>
+                           <title type="supplied">Part II, Chapter 3</title>
+                           <rubric><lb/> CAP: III. <lb/> De Rigo qvi primus Regium Titulum in <lb/>
+                              Dania usurpavit et Danpo, Dano Regni <lb/> Eponymo, Frothone paci
+                              dedito. Frid<lb/>lefo celere et Haldano, Frothone <lb/> et Olone
+                              Vegetis, Ingello, Frothone <lb/> et Haldano fratribus. Hel<lb/>gone
+                              Roe et Rolfo Krakio <lb/> in qvo directa Successio <lb/> desiit. </rubric>
+                           <incipit><lb/> Vermundi stripe masculina deficiente con<pb n="72v"/><lb
+                                 n="1"/>sentaneum est aliqvem ex ipsius cognatis aut <lb n="2"/>
+                              Regni magnatibus</incipit>
+                           <explicit> modum <lb/> qvo imperium post ipsius excessum
+                              administra<lb/>tum est investigare conabor. </explicit>
+                           <msItem n="1.4.4.1">
+                              <locus from="72v" to="73v"/>
+                              <title type="supplied">Quote: <title type="uniform">Ynglinga
+                                    saga</title>, ch. 20</title>
+
+                              <quote type="prose" xml:lang="is" rendition="kurrent">
+                                 <lb n="14"/> Moþer dijggva war Drott dotter Danps <lb n="15"/>
+                                 kongs sonar Rigs er fyrstur war kongur <lb n="16"/> kallaþur ä
+                                 danska Tungo, Han<ex>n</ex>s Ættmen<ex>n</ex>
+                                 <lb n="17"/> hoffþo äwallt sijdan<ex>n</ex> kongs naffn,
+                                    <unclear>f</unclear>or og <lb n="18"/>
+                                 <unclear>Øz</unclear>la tijgnar naffn. Dyggve war fyrst <lb n="19"
+                                 /> kongur kallaþur sinna ættmanna, enn <pb n="73r"/><lb n="1"/>
+                                 äþur woru þeir drottnar kallaþir, en<ex>n</ex> konur <lb n="2"/>
+                                 þeirra drottningar, en<ex>n</ex> drott hirdsveitenn. <lb n="3"/>
+                                    en<ex>n</ex> yngvi edur ynguni war kallaþur huor <lb/> þeirra
+                                 Ættmanna alla Æffe, en<ex>n</ex> ynglingar <lb/> aller
+                                    samn<ex>n</ex>. Drott drottning war syst<lb/>er Dans kongs hins
+                                 Mykeläta er Danmork <lb/> er widkend.</quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Dyggvonis mater (de Rege Sveciæ agit) fuit <lb/> Drotta Danpi
+                                 Regis filia, cujus pater fuit Ri<lb/>gus, qvem Danicum idioma
+                                 primum Regem <lb/> appellavit, ipsius deinde posteri Regio
+                                 Titu<lb/>lo tanqvam honorificentissimo epitheto identi<lb/>dem usi
+                                 sunt. Diggvo inter suos propinqvos <lb/> primus Regio Titulo
+                                 gloriabatur, qvi (scilicet <lb/> ipsius majores) prius Drottnar id
+                                 est Domini <lb/> dicti sunt et uxores <del>ejus</del> eorum
+                                 drottingar <lb/> dominæ, satellites in universum Drötts; multi
+                                 <lb/> tudo seo cætus aulicus nuncupabantur; sem <lb/> per tamen
+                                 qvælibet persona ex illa prosapia descendens yngve seu ynguni
+                                 appellabatur. <pb n="73v"/><lb n="1"/> collectim vero ynglingar
+                                 dicti sunt. Drotta <lb n="2"/> Regina soror fuit Dani magnanimi, a
+                                 qvo Da<lb n="3"/>nia nomen contraxit.</quote>
+                              <filiation>Series dynastarum 1702, p. 269–270 (Lib. III, Cap.
+                                 V)</filiation>
+                           </msItem>
+
+                           <msItem n="1.4.4.2">
+                              <locus from="73v" to="74r"/>
+                              <title type="supplied">Quote: <title type="uniform">Ynglinga
+                                    saga</title>, ch. 29</title>
+                              <quote type="prose" xml:lang="is" rendition="kurrent"> J þan<ex>n</ex>
+                                 tijma er þsser kon<lb n="19"/>gar woro at Uppsaulom er nu war frä
+                                 sagt <lb n="20"/> war yffer danmorko forst Danur hin<ex>n</ex>
+                                    myke<pb n="74r"/><lb n="1"/>läte, han<ex>n</ex> ward allgamall,
+                                 þä son hanns <lb n="2"/> Frodi hinn mÿkellate edur hinn Fridsame,
+                                    <lb n="3"/> þä hans sijner Halffdan og Fridleiffur <lb n="4"/>
+                                 þeir woru Hermenn mijkler. </quote>
+                              <quote type="translation" xml:lang="la"> hoc est. <lb n="5"/> Per id
+                                 tempus dum hi Reges upsalis regnarent, <lb n="6"/> (qvos a Dago ad
+                                 Aunonem recensuit) qvorum histo<lb n="7"/>riam jam pertexui sceptra
+                                 Daniæ tenuerunt, <lb n="8"/> primo Danus Magnanimus is admodum
+                                    grandæ<lb n="9"/>vus extitit; Deinde filius ejus Frotho Magna<lb
+                                    n="10"/>nimus seu paci deditus, ac deniceps filii il<lb n="11"
+                                 />lius Haldanus et Fridlefus, qvi bellatores in<lb n="12"/>signes
+                                 fuerunt. </quote>
+                              <filiation>No corresponding passage in Series dynastarum 1702
+                                 [?]</filiation>
+                           </msItem>
+
+                           <msItem n="1.4.4.3">
+                              <locus from="74v" to="76r"/>
+                              <title type="supplied">Quote: <title type="uniform"
+                                    >Heimskringla</title>, Prologue</title>
+                              <quote type="prose" xml:lang="is" rendition="kurrent">
+                                 <lb n="19"/> En fyrsta aulld er kollut Bruna aulld. þä <lb n="20"/>
+                                 skyijlde brenna alla dauþa menn, oc reisa ep<pb n="75r"/><lb n="1"
+                                 />ter Bautasteina, en<ex>n</ex> sijþan<ex>n</ex> er Freyr haff<lb
+                                    n="2"/>þi heygþur wered at upsaulom, þä giorþo <lb n="3"/>
+                                 marger hoffþingiar eige sijþur Hauga en<ex>n</ex>
+                                 <lb n="4"/> Bautasteina til Min<ex>n</ex>ingar epter frændar sij<lb
+                                    n="5"/>na. Enn sijþan<ex>n</ex> er danur en mijkeläte <lb n="7"
+                                 /> danaköngur let ser haug giora, oc baud sik <lb n="8"/> þangad
+                                 bera dauþan<ex>n</ex> med kongs skruþi og herbunaþi, ok hæst hans
+                                 med Sauþulræþi <lb/> og mijked fe annat, en<ex>n</ex> hanns ættmenn
+                                 <lb/> giorþo margir sua sijþan<ex>n</ex>, ok hoffst þa haugs <lb/>
+                                 aulld J danmorko, en<ex>n</ex> længe Sijþan helst <lb/> Brunaaulld
+                                 med Svijom ok Norþmonnom.</quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Prima ætas (Bruna aulld) combustionis seu <lb/> ignea ætas
+                                 vocabatur, tunc cadavera cremabant, <lb/> ac cineres Saxis miræ
+                                 magnitudinis cooperie<lb/>bant, qvæ Bautasteinar dicebantur. Sed
+                                 post<lb/>qvam Freyr Upsalis tumulo conditus fuisset, <lb/> multi
+                                 Proceres, non minus tumulos qvam Saxa illa pro trophæis erecta
+                                 (Bautasteina) <unclear>ad</unclear> cogna<pb n="75v"/><lb n="1"
+                                 />torum memoriam consecrandam extruxerunt. <lb n="2"/> At cum
+                                 magnanimus ille Danorum Rex Dan sibi <lb n="3"/> collem
+                                 magnitudinis conspicuæ extruxisset cui <lb n="4"/> post obitum
+                                 Regio Diademate exornatum ar<lb n="5"/>mis in dutum, et egvo
+                                 omnibus ornamentis in<lb n="6"/>structo impositum inferendum esset
+                                 cadaver, <lb n="7"/> addita magna pecuniæ vi, novam hanc tumulan<lb
+                                    n="8"/>di rationem ultro amplexi ejus posteri ot ami<lb n="9"
+                                 />ci, qvos multi postea imitati sunt, tum demum <lb n="10"/>
+                                 incepit in Dania secunda hæc ætas Hogolld <lb n="11"/> dicta, seu
+                                 tumulorum ætas, qvamvis in Svecia <lb n="12"/> et Norvegia
+                                 combustionis seculum Bruna aulld <lb n="13"/> diutius
+                                 duraverit.</quote>
+                              <filiation>Series dynastarum 1702, p. 272-273 (Lib III, Cap.
+                                 V)</filiation>
+                           </msItem>
+
+                           <msItem n="1.4.4.4">
+                              <locus from="78v" to="81r"/>
+                              <title type="supplied">Quote: <title type="uniform">Ynglinga
+                                    saga</title>, ch, 25</title>
+                              <quote type="prose" xml:lang="is" rendition="kurrent">
+                                 <lb/> Hugleikur het son Alffs er kongdöm tök yff<lb/>er Svijom
+                                 effter þä Brædur, þuijat sijner <lb/> Yngva woru þä
+                                    Bau<unclear>r</unclear>n. Hugleikur kongur war <lb/> Einge
+                                 Hermadur, ok sat hann at laundom <pb n="79r"/>
+                                 <lb n="1"/> J kyrsæte. Han<ex>n</ex> war Audigur miog ok
+                                 sijn<lb/>kur at fe, hafde miok J hyrd sinne alls<lb/>konar leikara.
+                                 harpara og <sic>Gijara</sic> og Fid<lb/>lara, han<ex>n</ex> hafde
+                                 ok med ser seidmenn, <lb/> og allskona fiolkunnigt fölk. Hake og
+                                 <lb/> Hagbardur heto brœdur ok woro ägiæter <lb/> miok, þeir woro
+                                 siäkongar, og hoffdo lid <lb/> mijked,, foro stundum<ex>m</ex>
+                                 bader samt, stun<lb/>dum ser huor, marger kappar wor
+                                 huo<lb/>rumtweggia þeirra. Hake kongor för <lb/> med her sinn, til
+                                 Svijthiödar ä hendur <lb/> Hugleike konge, en<ex>n</ex> Hugleikur
+                                 kongur <lb/> samnadi her for. þä komo til lids wid <lb/> hann
+                                 brœdur tveir, Svipdagur og Beiga<lb/>dur (sive Geigadur) ägiæter
+                                    men<ex>n</ex> bader, <lb/> og hiner mesto kappar. Hake kongur
+                                 haf<lb/>de med sér Tolff kappa, þar war þä <lb/> Starkadur Gamle
+                                 med haunom. Hake <pb n="79v"/><lb/> kongur war og hinn meste kappe,
+                                 þeir hitt<lb/>ust ä Fyresvollum<ex>m</ex>, <c type="variant">þä war
+                                    mÿkel orrosta</c>
+                                 <!-- variant -->
+                                 <lb/> fell bratt lid Hugleiks, þä söktu fram<ex>m</ex>
+                                 <lb/> kapparner Svipdagur og Geigadur (Bei<lb/>gaþur) en<ex>n</ex>
+                                 kappar Haka geingu sex moti, <lb/> hvorum<ex>m</ex> þeirra, og urdu
+                                 þeir handtekner, <lb/> Þä geck Hake kongur Jnn J skialldborg, <lb/>
+                                 at Hugleike konge, ok drap han<ex>n</ex> þar ok <lb/> sono hans
+                                 tua, epter þat flijdo Svijar <lb/>
+                                 <c type="variant"
+                                 /><!-- variant, missing sentence in GKS2449 vs the edition of the saga -->
+                                 Hann sat þä at laundom þria wetor, <lb/> en<ex>n</ex> J þí kirrsæte
+                                 foro kappar hans frä <lb/> honom ok J wiking, ok feingo ser sua
+                                 <lb/> Fiär. </quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Hugleiko nomen fuit Alfi filio, qvi á fratrum <lb/> morte
+                                 (Alfonem et yngonem intelligit, qvi mu<lb/>tuis cædibus
+                                 occubuerunt) Svecorum Rex factus <lb/> est, filii enim yngonis
+                                 nimis teneræ ætatis <lb/> erant; Hugleikus bellivis operibus
+                                 deditus <pb n="80r"/><lb/> non fuit, sed pacate Regnum moderatis
+                                 est, <lb/> opulentus et sordide tenax, habuitq<ex>ue</ex> in aula
+                                 <lb/> sua omnis generis joculatores. Citharætas <lb/> avletas et
+                                 lyricmes, incantatores insuper et <lb/> venefuorum magnum gregem,
+                                 Hako et <lb/> Hagbardus fuerunt fratres, viri admodum <lb/>
+                                 colebres et pyratrum Reges maximis co<lb/>piis instructi, qvi
+                                 interdum conjunc<unclear>tim</unclear>, in<lb/>terdum seorsim
+                                 expeditiones nauticas susce<lb/>perunt, uterq<ex>ue</ex>
+                                 fortissimorum Athletarum splen<lb/>dido satellito stipatus est. Rex
+                                 Hako Sve<lb/>ciam infesta classe petebat, Hugleiko bellum <lb/>
+                                 illaturus; qvi copias qvam maximas coegit, tunc <lb/> ipsi in
+                                 auxilium venerunt duo fratres Svip<lb/>dagus et Geigadus (aliud
+                                 exemplar habet Bei<lb/>gadus) ambo insignes viri et Atheltæ
+                                 fortissimi. Hako duodecim magni nominis athletas in <lb/> exercitu
+                                 habebat, inter qvos Starchaterus longæ<pb n="80v"/><lb/>vus
+                                 numeratur, et ipse qvidem Rex, tam animi <lb/> fortitudine, qvam
+                                 corporis robore eximius fuit. <lb/> in campis igitus
+                                 Firisvallensibus atroci pu<lb/>gna utinq<ex>ue</ex> concurritur, et
+                                 statim in exerptu <lb/> Hugleiki magna strages facta, Svipdagi et
+                                 <lb/> Geigadi virtute paululum reprimitur, sed <lb/> qvemlibet
+                                 eorum Sex ex Hakonis Athletis ex<lb/>veperunt, donec
+                                    untrumq<ex>ue</ex> vivum comprehende<lb/>rent; Deinde agmen,
+                                 qvod Regem instar valli <lb/> undiq<ex>ue</ex> cingebat perrumpens
+                                 Hako, Hugleikum <lb/> cum duobus filiis obtruncavit, ex qvo Svevi
+                                 <lb/> fugam capescebant, potitus vietoria trienn<unclear>iu
+                                 </unclear><lb/> cum summa qviete Sveciæ præfuit; qvare Ath<lb/>letæ
+                                 ab eo in alias terras prædatum concesserunt.</quote>
+                              <filiation>Series dynastarum 1702, p. 275–276 (Lib. III, Cap.
+                                 V).</filiation>
+                           </msItem>
+                        </msItem>
+                        <msItem n="1.4.5">
+                           <locus from="101r" to="121v"/>
+                           <title type="supplied">Part II, Chapter 4</title>
+                           <rubric>
+                              <lb/> CAP IV. <lb/> DE INTERREGNO. </rubric>
+                           <incipit><lb/> Postquam Rolfo Krakius á Hiartvaro so<lb/>roris suæ
+                              marioto vita simul et Regno spolia<lb/>tus esset</incipit>
+                           <explicit> et per qvem Regnum in <pb n="121v"/><lb/> pristinum Monarchiæ
+                              Statum redactum fue<lb/>rit proinde dicendum. </explicit>
+                           <msItem n="1.4.5.1">
+                              <locus from="101v" to="103r"/>
+                              <title type="supplied">Quote: <title type="uniform"
+                                    >Skáldskaparmál</title>, ch. 53 <note>ch. 54 in some
+                                    editions</note></title>
+                              <quote type="prose" xml:lang="is" rendition="kurrent">
+                                 <lb n="11"/>Kongur eirn i danmork er neffndur Hrol<lb n="12"/>fur
+                                 krake, han<ex>n</ex> er ägiætastur fornkön<lb n="13"/>ga, fyrst aff
+                                 millde, frækleik og lijtelæte, <lb n="14"/> þat er eitt teikn wm
+                                 lijtelæte hans, er <lb/> meige føra J fräsogur, at eirn fatækur
+                                 <lb/> sveirn kom J hollo hans, er Woggur hiet og <lb/> sä wppa
+                                    köngen<ex>n</ex>. þä mællte kongur, huad <lb/> willtu mæla
+                                 sveirn er þu ser wppa mig, þä <lb/> mælte Woggur, þat heyrda eg
+                                 sagt þä ek <pb n="102r"/><lb n="1"/> war heima at Hrölffur kongur i
+                                 Hleidro <lb/> wære mestur Madur J Nordur launom, <lb/> Enn nu situr
+                                 hier i Häsæte krake Noc<lb/>kur lijtell. Þä mællte köngur, þu
+                                 svei<lb/>rn heffur geffed mier Naffn, at eg skal <lb/> heita
+                                 Hrölfur Kraki, en<ex>n</ex> þat er tijtt at <lb/> gioff skal fylgia
+                                 Naffn feste. Nu se ek <lb/> þik aungva gioff haffa, þuij skal sä
+                                 ge<lb/>fa ødrum er til heffur. Tök kongur <lb/> Gullhrijng aff
+                                 hende ser og gaff honum <lb/> þä mællte Woggur, geff þu allra könga
+                                 <lb/> heilastur, og þess streinge ek heit at wer<lb/>da þess Manns
+                                 bane er þeim bane wer<lb/>dur. Þä mællte köngur litlu Werdur <lb/>
+                                 Woggur feigenn. </quote>
+                              <quote type="translation" xml:lang="la"><lb/> Qvidam Daniæ Regum
+                                 dictus est Rolfo kra<lb/>kius, Regum priscorum propter
+                                 liberalitatem <lb/> fortitudinem et mansvetudinem celeberrimus,
+                                 <lb/> humanitatis ejus indicium tale allegatur; <pb n="102"/><lb/>
+                                 In ejus aulam adolescens pauper culus aliqvan<lb/>do venit Nomine
+                                 Voggus, Regem fixis intuens <lb/> oculis, cui Rex, qvid, inqvit,
+                                 adolescens <lb/> vis effari cum ita me accurate contempleris? <lb/>
+                                 Tum ille; domi meæ audivi Hrolfonem Regem <lb/> Hledræ maximum esse
+                                 viroru, qvi in aqvilo<lb/>naribus conspiciuntur terris, sed nun in
+                                 so<lb/>lio hic sedet exiguus pusio (kraki). Tu ado<lb/>lescens Rex
+                                 ait cognomen mihi dedisti, ut Hrol<lb/>fo krakius appeller, sed
+                                 moris est ut cognomi<lb/>na dono aliqve confirmentur. Te vero qvod
+                                 dones nihil habere video, dabit ergo qvi habet, annulumq<ex>ue</ex>
+                                 aureum digito extractum ipsi con<lb/>cessit. Tum Voggus omnium
+                                 inqvit, Regum fe<lb/>licisimus dederis, votumq<ex>ue</ex> voveo
+                                 ejus viri <lb/> interfector fieri qvi te occiderit, Rex autem
+                                 ar<lb/>ridens addebat. (Litla werdur woggur feigen) <lb/> Parvo
+                                 Voggus gaudet. qvod effatum deinde <lb/> in paræmiam translatum
+                                 est.</quote>
+                              <filiation>Series dynastarum 1702, p. 289– (Lib. III, Cap.
+                                 VII).</filiation>
+                           </msItem>
+
+                           <msItem n="1.4.5.2">
+                              <locus from="106r" to="106v"/>
+                              <title type="supplied">Quote: Stanza from <title type="uniform">Hálfs
+                                    saga ok Hálfsreka</title>, ch. 6 (Anon (Hálf) 2 – Hálf
+                                 5)</title>
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <pb n="106v"/>
+                                 <lb n="1"/> ek se hringio haugi wm orpna <lb/> enn hera hingat
+                                 huatin spioti <lb/> se ek hiorlefi hauptbaund snuin<ex>n</ex>
+                                 <lb/> enn hreidari hugin<ex>n</ex> Galga.</quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Video Hringæ (uxori Hiorlefi) tumulum extru<lb/>ctum
+                                 (sepulchrum intelligit) sed Herum (is uxoris <lb/> ipsius frater
+                                 fuit) gladio transfixum. Video Hior<lb/>lefo ligulas multiplicatas
+                                 (lagveum intelligit) sed <lb/> Hreidaro (is pater uxoris fuit)
+                                 destinatum patibulum.</quote>
+                              <filiation>No corresponsing passage in the 1702 Series dynastarum?
+                                 Check! </filiation>
+                           </msItem>
+
+                           <msItem n="1.4.5.3">
+                              <locus from="111v" to="114r"/>
+                              <title type="supplied">Quote: <title type="uniform"
+                                    >Gylfaginning</title>, ch. 49 </title>
+                              <quote type="prose" xml:lang="is" rendition="kurrent">
+                                 <lb/> Balldur hinn göda dreimde drauma <lb/> marga. Störa og
+                                 hættulega wm<ex>m</ex> lijff sitt, Enn er hann sagdi Asum<ex>m</ex>
+                                 draumana, <lb/> bäru þeir saman<ex>n</ex> Räd sijn, ok war þat
+                                 <lb/> giort at beida grida Ballder fyrrer <lb/> Allskonar häska,
+                                 Frijgg tök suardaga <lb/> til þess at eijra skillde Balldre Elldur
+                                 <lb/> Watn og Järn og allskonar Mälmur, Stein<lb/>ar,
+                                    Jorden<ex>n</ex>, Widerner, Sötternar, Dijren<ex>n</ex>
+                                 <lb/> Fuglarner, Eitrid og Ormarner, En<ex>n</ex> er <lb/> þetta
+                                 War giort og Witad, þä War þad <lb/> skemtan Asanna og Balldurs, ad
+                                 hann <lb/> skillde standa upp ä þijngum<ex>m</ex>, En<ex>n</ex>
+                                 Æser <pb n="112r"/><lb n="1"/> skilldu sumer skiöta ä hann, sumer
+                                 <lb/> hoggva, sumer berja griötum<ex>m</ex>, Enn <lb/> huat sem at
+                                 war giort skadadi hann <lb/> ecki, og þötte ollum<ex>m</ex> mijkel
+                                 frame. <lb/> Enn er þetta sä Loke Lauffeijar son, <lb/> Lijkade
+                                    honum<ex>m</ex> Jlla, hann geck til <lb/> Fensalar til Frijggiar
+                                 og brä sier J <lb/> konu lijke. Þä spurde Frygg eff su <lb/> kona
+                                 wisse, huat Æser heffdost at ä <lb/> þijngom, hon sagdi at aller
+                                 skuto at <lb/> Balldre, ok þat honom grandadi eckj, <lb/> Þä mællte
+                                 Frygg, ej mun Wopn nie Wi<lb/>der granda Balldri, eida aff þeim
+                                    oll<lb/>um<ex>m</ex> heffe ek feinged, Nema Widartein<ex>n</ex>
+                                 <lb/> eirn Wex for Westan<ex>n</ex> Walhaull, er kall<lb/>adur er
+                                 Mistilteirn, sä þötte mier wn<lb/>gur Eids ad kreffia. Þuij næst
+                                 huarff <lb/> konan<ex>n</ex>, er Loke sleit wpp Mistiltein ok <pb
+                                    n="112v"/><lb n="1"/> geck til þijngs, En<ex>n</ex> haudur stöd
+                                 wtar<lb/>lega J mannhrijugnum, þuÿ han<ex>n</ex> war <lb/> blindur.
+                                 þä mællte Loke, þuij skijtur <lb/> þú ecke at Balldre. Haudur
+                                 sagdi, þuij <lb/> ek se ecke huar hann er, ok þat annad <lb/> at eg
+                                 er wopnlaus. Þä mællte Loke, gior <lb/> J lijknig annara og weit
+                                 Balldre sæmd <lb/> ek mun wijsa þier huar hann stendur, <lb/> skiöt
+                                 ad honum wende þessom. Haudur <lb/> feck Mistiltein og skaut ad
+                                 Balldre at <lb/> Tilwijsam Loka, flaug skoted i gegnom <lb/> hann,
+                                 ok fell Balldur daudur til jard<lb/>ar, og heffur þat öhapp mest
+                                 giort <lb/> wered med Gudum<ex>m</ex> ok monnum<ex>m</ex>. Enn
+                                 <lb/> er Balldur war daudur, fellust ollom <lb/> Asom orþ ok hendur
+                                 at taka til hans. <lb/> ok ei mättu þeir heffna þar war so
+                                 mij<lb/>kell gridastadur. War þä hinn meste <pb n="113r"/><lb n="1"
+                                 /> grätur med Asom. Enn Oþin<ex>n</ex> bar <lb/> þemu mun west
+                                 þennan skada, sem han<ex>n</ex>
+                                 <lb/> kunne mesta skijn, huorsu<ex>m</ex> mijkel aff<lb/>taka ok
+                                 misser Asonom war J falle <lb/> Balldurs.</quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Baldrus bonus multis, iisq<ex>ue</ex> gravibus er <lb/>
+                                 periculosis insomniis vexabatur, qvæ vitæ bre<lb/>vitatem
+                                 portenderent, eumq<ex>ue</ex> ea coram <lb/> Asis exposuerit
+                                 concilium coactum est, et <lb/> conclusum ut Baldero ab omni re
+                                 securi<lb/>tatem impetrarent. Frygga igitur in <lb/> hoc Juramenta
+                                 accepit. <del>0</del> ut <del>0</del> Baldero neq<ex>ue</ex>
+                                 <lb/> ignis, neq<ex>ue</ex> agva, neq<ex>ue</ex> ferrum, aut ullum
+                                 me<lb/>tallum, lapides, terra, ligna, morbi, animalia, volucres,
+                                 veneum aut insectæ damnum in<lb/>ferrent. qvibus paractis Asæ animi
+                                 gra<lb/>tia Balderum in foro omnis generis missili<lb/>bus
+                                 lapidibus et talis obrubant, sed qvan<lb/>tumvis eum incesserent,
+                                 lædi tamen nullo <pb n="113v"/><lb n="1"/> modo potuit, id qvod
+                                 singularis honor repu<lb/>tabatur. Hoc cum videret Loco
+                                 Laufei<lb/>sonius. invidia sufflatus, Fensalam iter <lb/> suscepit,
+                                 ubi Frygga degebat, mulierisq<ex>ue</ex>
+                                 <lb/> perogrinæ formam assumpsit. Hanc Fryg<lb/>ga interrogavit, an
+                                 sciret qvid in foro Ju<lb/>dicario potissimam Asæ agerent?
+                                 Respon<lb/>dit mulier, omnes in Baldrum absq<ex>ue</ex> ulla <lb/>
+                                 ejus læsione et periculo Jacula mittere. <lb/> Baldero inqvit
+                                 Frygga nec arma nec ulla <lb/> ligna damnum inferent, Juramenta
+                                 enim <lb/> ab istis in universum accepi, præter arbu<lb/>sculam ad
+                                 latus occidentale Valhallæ ere<lb/>scentem, qvæ Mistilteirn
+                                 appellatur, nam <lb/> hæc mihi perqvam Juvenis videbatur á qva
+                                 <lb/> Jusjurandum exigerem. His auditis mulier <lb/> illa
+                                 disparuit. At Loco arbusculam Mistil<lb/>tein eruens ad forum
+                                 properavit. Hotherus <lb/> autem in extremo astitit circo, qvia
+                                    lumini<pb n="114r"/><lb/>bus captus erat. Hunc adortus Loco, cur
+                                 (in<lb/>qvit) in Balderum honoris ergo tela non di<lb/>rigis? qvia
+                                 ait alter cæcus sum et insu<lb/>per in ermis; facito ait Loco ad
+                                 exemplum <lb/> aliorum, ex hibe Baldero honorem,et hanc <lb/> in
+                                 illum virgulam projice, ego ubi stet te <lb/> docebo. Hotherus
+                                    itaq<ex>ue</ex> accepta arbuscila <lb/> Locone manum ejus
+                                 dirigente Balderum <lb/> hoc missili transfodit, qvi protinus
+                                 exani<lb/>mis concidit, qvo scelere nullum inter De<lb/>os et
+                                 homines atrocius perpetratum fuerat. <lb/> Mortuo Baldero verbis et
+                                 virbus destitue<lb/>bantur Asæ, nec ob reverentiam loci necem <lb/>
+                                 ejus ulsici poterant, eratq<ex>ue</ex> tunc temporis in<lb/>ter
+                                 Asas luctus acerbissimus, Etis Odinus <lb/> cædem ejus tanto
+                                 gravius ferret, qvanto <lb/> acceptum damnum reliqvis meliusb
+                                 intellige<lb/>ret. </quote>
+                              <note>Series dynastarum 1702, p. 296–298.</note>
+                           </msItem>
+
+                           <msItem n="1.4.5.4">
+                              <locus from="114v" to="115r"/>
+                              <title type="supplied">Quote: <title type="uniform">Vǫluspá</title>
+                                 31-32</title>
+
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb n="3"/> Ek sa Balldre bladgom Tiwor <lb/> Oþnis Barne Aurlaug
+                                 folginn. <lb/> Stoþ wm waxin<ex>n</ex> wollo hærre <lb/> mior ok
+                                 miok fagur mistilteirn, <lb/> ward aff þeim meiþi er mer sindist
+                                 <lb/> harmflaug hættlig, Hauþur nam skiöta <lb/> Baldurs Broþir war
+                                 of Borin<ex>n</ex> snemma <lb/> sa nam Oþins son einnættur wega </quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Ego vidi Baldero Odini filio, Asæ cruore per<pb n="115r"/><lb
+                                    n="1"/>fuso, fata destinata, stetit enim campo altum <lb/>
+                                 crescens tenera et speciosa spina Mistelteirn. <lb/> qva de spina
+                                 ut mihi qvidem visum est, eve<lb/>nerunt (Baldero) plagæ
+                                 deplorandæ, Hothe<lb/>rus enim Jaculari cæpit. Balderi frater
+                                 an<lb/>te diem natus, atq<ex>ue</ex> ita Odini filius noctem <lb/>
+                                 natus cædem commisit. </quote>
+
+                              <filiation>Series dynastarum 1702, p. 299. <note>The quotation is
+                                    introduced explicitly in SD1702 as "De Baldri cæde Vuluspa
+                                    seqventia habet:"</note></filiation>
+
+                           </msItem>
+
+                           <msItem n="1.4.5.5">
+                              <locus from="115r"/>
+                              <title type="supplied">Quote: <title type="uniform"
+                                    >Gylfaginning</title>, ch. 28</title>
+
+                              <quote type="prose" xml:lang="is" rendition="kurrent">
+                                 <lb/> Haudur heiter eirn Asin<ex>n</ex>, æred er han<ex>n</ex>
+                                 <lb/> Sterkur, en<ex>n</ex> wilia mundu Guden<ex>n</ex>
+                                    þennan<ex>n</ex>
+                                 <lb/> As þyrffte ecke at Neffna, þuij at hans <lb/> handverk muno
+                                 leinge hauffd at minn<lb/><fw>om</fw>
+                                 <pb n="115v"/><lb n="1"/>om for Gudom ok Maunnom<ex>m</ex></quote>
+                              <quote type="translation" xml:lang="la"><lb/> Hotherus nuncupatur unus
+                                 inter Asas. nimio <lb/> certe robore pollens, vellent eqvidem Dii
+                                 <lb/> ne mentio illus fieret, licet ipsius gesta <lb/> tam inter
+                                 Deos qvam homines perpotua me<lb/>moria circumferantur</quote>
+                              <filiation>Series dynastarum 1702, p. 300.</filiation>
+                           </msItem>
+
+                           <msItem n="1.4.5.6">
+                              <locus from="116r"/>
+                              <title type="supplied">Quote: <title type="uniform">Vǫluspá</title> 62 </title>
+
+                              <quote type="poetry" xml:lang="is" rendition="runic"><lb/>Muno Osanir
+                                 Akrar wagsa <lb/> bauls mun alls batna, Balldur mun koma <lb/> bua
+                                 þer haudur ok balldur hropts sigtopter <lb/> wel waltiwar witid
+                                    en<ex>n</ex> eda huat? </quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Agri absq<ex>ue</ex> satione fertiles erunt; Delebun<lb/>tur
+                                 omnes ærumnæ. Balderus veniet, Ha<lb/>bitabunt Hotherus et Balderus
+                                 Othini Tri<lb/>umphalem aulam (Valhallam intelligit) Sic<lb/>cine
+                                 Asæ, intelligis adhuc? nonne.</quote>
+                              <filiation>Series dynastarum 1702, p. 300–301.</filiation>
+                           </msItem>
+
+                           <msItem n="1.4.5.7">
+                              <locus from="118v" to="119v"/>
+                              <title type="supplied">Quote: <title type="uniform">Hyndluljóð</title>
+                                 14–16</title>
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb/> Ali war aþur Auflgastur manna <pb n="119v"/><lb n="1"/>
+                                 Halfdan fyrre hæstur skiolldunga <lb/> Fræig woro Folkwig þau er
+                                 framer giorþo, <lb/> huarfla þottu hans werk meþ himenskautom <lb/>
+                                 Efldist hann wid Eimund Æstan<ex>n</ex> manna <lb/> En wa Sigtrigg
+                                 med suolom Eggiom. <lb/> Eiga geck Almweig Æsta kono <lb/> olo þau
+                                 ok attu Atian sono <lb/> Þaþan<ex>n</ex> eru Skioldungar þaþan
+                                 Skilfingar <lb/> þaþan Audlingar þaþan Ynglingar <lb/> þaþan
+                                 hauldborid þaþan hersborid, <lb/> mest manna wal und Midgarðe <pb
+                                    n="119v"/><lb n="1"/> Allt er þat Ætt þin Ottar heimske</quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/>Alo antiqvitus hominum robustissimus fuit, <lb/> At Haldanus
+                                 Skioldungorum Supremus (maximus) <lb/> celebres erant cædes qvas
+                                 Heroes illi patrarunt, <lb/> ipsius acta per cæli cardines volitare
+                                 videbatntur, <lb/> Ab hominum summo Eimundo honoribus affectus est
+                                 <lb/> At Sigtryggum frigido ferro fuidit. <lb/> Præcipuam mulierem
+                                 Almveigam duxit <lb/> Ex qva octodecim filios suscepit. <lb/>
+                                 Illinc Skioldungi; Illinc Skilfingi <lb/> Illinc Audlingi, Illinc
+                                 Ynglingi <lb/> Illinc nobilium illunc Comitum prosapiæ proflux
+                                 erunt. <lb/> In qvibus totius orbis incolarum flos consistit <lb/>
+                                 Omnes hi cognatione te attingunt Ottare stulte. </quote>
+                              <filiation>Series dynastarum 1702, p. 304–305.</filiation>
+                           </msItem>
+                        </msItem>
+
+                        <msItem n="1.4.6">
+                           <locus from="121v" to="161r"/>
+                           <title type="supplied">Part II, Chapter 5</title>
+                           <rubric>
+                              <lb/> CAP: V. <lb/> De Ivaro Vidfamio. Rorecho Slaun<lb/>gvanbauga seu
+                              Slingebond. Haraldo <lb/> Hildetann. Sigurdo Ringo. et <lb/> Ragnaro
+                              Lodbrok. </rubric>
+                           <incipit><lb/> Roen Rolfi krakii patruum fuisse constat, <lb/> illius
+                              filius Valdarus Munificus nomine Haral<lb/>dum grandævum
+                              genuit</incipit>
+                           <explicit> Læ<lb/>tus potabo cer<del>e</del>visiam, supremas inter Asas
+                              se<lb/>des occupaturus; effluxerunt vitæ tempora. <lb/> ridens
+                                 itaq<ex>ue</ex> moriar.</explicit>
+                           <msItem n="1.4.6.1">
+                              <locus from="122v" to="122v"/>
+                              <title type="supplied">Quote: <title type="uniform">Ynglinga
+                                    saga</title>, ch. 41</title>
+                              <quote type="prose" xml:lang="is" rendition="kurrent">
+                                 <lb n="1"/> Jwar wijdfadmi lagdi under sik allt Svÿa <lb/> wellde,
+                                 hann eignadest og allt Danawelldi, <lb/> og mijken Lut Saxlands, ok
+                                 allt Austurrij<lb/>ke og Jnn Fimta Lut Einglands. Aff hans <lb/>
+                                 Ætt eru komner Danakongar og Svijakon<lb/>gar, þeir er þar haffa
+                                 Einvalld hafft. </quote>
+                              <quote type="translation"><note>No direct translation to follow the
+                                    quote, the text is followed by:</note> Ab illo ortum trahunt
+                                 Daniæ et Sveciæ Re<lb/>ges, qvi in illis Regnis Monarchiam
+                                 tenuerunt.</quote>
+                              <filiation>Series dynastarum 1702, p.308.<note>In SD1702 the Latin
+                                    translation follows imidiatelly after the
+                                 quote.</note></filiation>
+                           </msItem>
+                           <msItem n="1.4.6.2">
+                              <locus from="123v" to="124r"/>
+                              <title type="supplied">Quote: <title type="uniform">Hyndluljóð</title>
+                                 28</title>
+
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb/> Haraldur hilditan<ex>n</ex> borin hræreki. <lb/>
+                                 slaungvanbauga sonur var hann Audar <lb/> Auþar diupaudgu Jvars
+                                 döttur <lb/> Enn Raþbarbarþur var Randvers faþir. <lb/> þeir woro
+                                 Gumnar Goþom signaþir. <lb/> Allt er þat ætt þin Ottar heimske. </quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Haraldus Hildetann natus est ex Rorecho Slaun<lb/>gvanbauga
+                                 (Slingebond) et Auduræ filius erat, <lb/> Auduræ profundæ divitis
+                                 Jvari filiæ. At Rad<pb n="124r"/><lb/>bardus Randveri Pater fuit,
+                                 illi Heroes Diis <lb/> consecrati sunt; omnes isti cognatione te
+                                 attni<lb/>gunt Ottare stulte.</quote>
+                              <filiation>Series dynastarum 1702, 313–314. <note>In SD1792, the last
+                                    two verses of the stanza are omitted. </note></filiation>
+
+
+                           </msItem>
+                           <msItem n="1.4.6.3">
+                              <locus from="127r" to="127v"/>
+                              <title type="supplied">Quote: <title type="uniform">Hversu Noregr
+                                    byggðist</title>, ch. 3 </title>
+
+                              <quote type="prose" xml:lang="is" rendition="kurrent">
+                                 <lb/> Walldar hinn Millde war Hröarsson, hans <lb/> son war
+                                 Haralldur Gamle, han<ex>n</ex> atte Her<lb/>woru dottur Heidreks
+                                 kongs, þeirra son <lb/> war Haldan snialle, Han<ex>n</ex>s son Jwar
+                                 <lb/> Wijdfadmi, hans döttur Audur hin diup<lb/>audga, sem atte
+                                 Hrærek Slaungabauga <lb/> þeirra son wa Haraldur Hilldeton. Þä
+                                 <lb/> giptest Audur aptur Rädbardi konge, þeir<lb/>ra son war
+                                 Randwer Fader Sigurdar Hrij<lb/>ngs, hans son war Ragnar
+                                 Lodbrök.</quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Valdarus munificas fuit Roesfilius (vi<lb/>deatur si placet
+                                 locus ejus in genealogia) et filium <lb/> habuit Haraldum
+                                 grandævum, qvi Heidrici Re<lb/>gis filiam Hervoram duxit; illorum
+                                 filius fu<pb n="127v"/><lb/>it Haldanus disertus, illius autem
+                                 Jvarus latipas<lb/>sus (Widfadmi) Auduræ
+                                    profund<unclear>o</unclear> divitis pater. <lb/> qvæ Rorecho
+                                 Slaungvanbauga (annulorum funditori) <lb/> numpsit; illorum filius
+                                 fuit Haraldus Hildetann <lb/> Audur deinde Regi Radbardo matrimonio
+                                 Juncta <lb/> est, eorum filius fuit Randver, Sigurdi Hringi <lb/>
+                                 (annuli) pater, ejus filius fuit Ragnar Lodbrok.</quote>
+                              <note>Not cited explicitly in the 1702 Series dynastarum.</note>
+
+                           </msItem>
+                           <msItem n="1.4.6.4">
+                              <locus from="138v" type="139r"/>
+                              <title type="supplied">Quote: <title type="uniform">Krákumál</title>
+                                 20</title>
+
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb/> Hiuggom wier meþ <sic>Hioffi</sic>
+                                 <note>In Runic: hiorfi</note>
+                                 <lb/> Harfagran<ex>n</ex> sa ek Rokva <lb/> meyar dreing a morgna
+                                 <lb/> ok malvinin Eckna </quote>
+                              <quote type="translation" xml:lang="la"> id est <lb/> Pugnavimus
+                                 gladio, pulchricomum vidi crepuscula<pb n="139r"/><lb/>re (fugere
+                                 potius verterem, nam omittitur aspiratio <lb/> Rockva enim dixit
+                                 pro Hrockva), Virginis amatorem <lb/> circa matutinum tempus, et
+                                 confabulationis amicum <lb/> viduarum. </quote>
+                              <filiation>Series dynastarum 1702, p. 390.</filiation>
+                           </msItem>
+
+
+                           <msItem n="1.4.6.5">
+                              <locus from="141v" type="142r"/>
+                              <title type="supplied">Quote: <title type="uniform">Krákumál</title>
+                                 28</title>
+
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb/> Hiuggom wier meþ Hiorfi <pb n="142r"/><lb/> heffi ek
+                                    fim<ex>m</ex>tiu sinnom <lb/> folkorustur framdar <lb/>
+                                 fleniþingsboþi og eina</quote>
+                              <quote type="translation" xml:lang="la"> Pugnavimus gladio, habeo
+                                 qvinqvagies prælia <lb/> sub signis facta, ex belli invitatione et
+                                 semel. </quote>
+
+                              <filiation>Not cited in SD1702? Check!</filiation>
+                           </msItem>
+
+
+                           <msItem n="1.4.6.6">
+                              <locus from="149v" to="152v"/>
+                              <title type="supplied">Quote: <title type="uniform">Ólafs saga
+                                    Tryggvasonar en mesta</title>, ch. 60 </title>
+
+                              <quote type="prose" xml:lang="is" rendition="kurrent">
+                                 <lb/> J þann tijma er karlamagnus rijkte, war <lb/> sä kongur a
+                                 Jotlande er Godefridus hiet, hann <lb/> drap Hrærek
+                                 Frijsahoffdingia ok skattgillti <lb/> Fryse, Sijdan<ex>n</ex> för
+                                 karla magnus ä möti <lb/> Godefride, og þä war Godefridur drepenn
+                                 <lb/> aff sialffs sijns lide, en<ex>n</ex> Hemingur Bröder <lb/>
+                                 hans tekenn til kongs, ok hellt hann framm <pb n="150r"/><lb/> Lidi
+                                 til mots wid karla Magnus kong, þar <lb/> til þeir fundust wid ä þä
+                                 er Egdira hei<lb/>ter, þar sættust þeir, en<ex>n</ex> Hemnigur
+                                 An<lb/>dadist Wetre sijdar, þä giórdust köngar <lb/> ä Jotlande
+                                 Sigfrode frænde Godefrids, <lb/> Enn annar het Hringur Annulo, þeir
+                                 drou <lb/> lid ad sier bäder, ok atto mijkla orosto, <lb/> ok lauk
+                                 sua at huor tvegge fiell, J þeirra <lb/> orosto fellu X þushundrud
+                                 ok VIII hun<lb/>drud og LX manna, þä tök köngdom sä <lb/> madur er
+                                 Harekur hiet, og war Fim<ex>m</ex> wetur <lb/> kongur adur hann
+                                 bardest wid Reinfrid, <lb/> son Godefrids, J þeirre orosto het
+                                 Hä<lb/>rekur þuij til Sigurs ser eff hann kiæmest <lb/> or þeirre
+                                 orosto, ad taka skyrn med ollo <lb/> skulldalide sijno. J þeim
+                                 Bardaga feck <lb/> hann sigur, og för litlu sijþar med kono <lb/>
+                                 sijna og Harek Brödur sinn og margt <lb/> domalid til mots wid
+                                 Hlodver kong son <pb n="150v"/><lb n="1"/> Karla Magnusar er þä war
+                                 Keisari, war <lb/> Harekur þä skijrdur ok hanns menn J Meg<lb/>niso
+                                 Borg, ä dogum Pascalis Pava, för <lb/> þä Harekur afftur J Danmork,
+                                 og medur <lb/> honum Ansgarius Biskop, og skijrde hann <lb/> þar
+                                 margt manna. Harekur ward sött<lb/>daudur, en<ex>n</ex> Harek
+                                 frændi hans ward <lb/> kongur, og reda fyrer Jotlande, þar <lb/>
+                                 til Guttormur Modurbroder hans bar<lb/>dist wid han<ex>n</ex>, þa
+                                 war lided frä Holldgan <lb/> wors herra Jesu Christi VIII hundrud
+                                 ara <lb/> og LX Ara ok II Ar, J þeirre soku fello <lb/> þeir bäder,
+                                 og allt kongakyn þad er medur <lb/> þeim war, utan eirn sveirn
+                                 liffde effter, <lb/> sä er Harrekur hiet, og ward han<ex>n</ex>
+                                 kongur <lb/> sijdan<ex>n</ex>, Ansgarius Biskup for þä en<ex>n</ex>
+                                 til dan<lb/>merkur ä fund Hareks ok skyrder hann. <lb/> Harekur
+                                 liet giora kyrkiu J Riffum<ex>m</ex>
+                                 <pb n="151r"/><lb n="1"/> Enn Harekur haffde adur lated giora J
+                                 <lb/> Heidabæ Ansgarius Biskup Andadest, <lb/> þremur wetrum effter
+                                 bardaga þeirra <lb/> Hareks ok Guttorms. Þä er sagt ad <lb/>
+                                 Harekur kastade kristne og dö litlu <lb/> sijdar.</quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Ea tempestate qva Carolus Magnus Im<lb/>perabat præfuit Jutiæ
+                                 Rex Godefridus di<lb/>ctus, Is Rorechum Frisorum Principem occidit,
+                                 <lb/> et Frisos sub tributum inisit: Deinde Carolus <lb/> Magnus
+                                 contra ipsum profectus est, et tanc Go<lb/>defridus a suis occisus
+                                 est, et Hemingus frakter <lb/> illius Rex creatus, qvi Regi Carolo
+                                 Magno cum <lb/> exercitu obviam processit, donec convenirent <lb/>
+                                 ad amnem qvæ Eddera (Eidora) vocatur, ibi <lb/> pax
+                                    utrinq<ex>ue</ex> facta est; sed hyeme proxime Se<lb/>qvente
+                                 decessit Hemingus, Tunc Reges Jutiæ <lb/> facti sunt Sigfrodus
+                                 Gotefridi cognatus et <lb/> alius nomine Hringo Annulo, illi ambo
+                                    exerci<pb n="151v"/><lb/>tum conscripserunt, et ingens bellum
+                                 invicemges<lb/>serunt, qvod talem exituam habuit, ut ambo <lb/>
+                                 caderent, illo prælio XM, DCCCLX occubu<lb/>erunt. Tunc Regum
+                                 Titulum assumpsit vir <lb/> qvidam nomme Harecus et qvinqvennium
+                                 <lb/> regnavit anteqvam cum Reinfredo Godefre<lb/>di filio bello
+                                 decertaret; illo prælio obti<lb/>nonde victoriæ gratia voto se
+                                 obstrinxit <lb/> Harecus ad Sacrum baptisma cum universa <lb/>
+                                 familia recipiendum, si salvus de prælio <lb/> evaderet; illo
+                                 certamine victoria penes il<lb/>lum stetit, et paulo post cum uxore
+                                 sua <unclear>00</unclear>
+                                 <lb/> fratre Hareco et magno Danorum comitatu, <lb/> ad Regem
+                                 Ludovicum Caroli MAgni filium <lb/> qvi tunc Imperator erat,
+                                 profectus est, Et <lb/> tunc Harecus bestismi sacris, cum iis qvi
+                                 <lb/> ipsum comitabantur. Moguntaæ initiatus est, <lb/> sedente
+                                 Pascali Pontifice. In Daniam de<lb/>inde regresus est Harecus et
+                                 cum illo Ans<pb n="152r"/><lb/>garius episcopus, qvi magnam populi
+                                 par<lb/>tem sacro fonte abluebat. Harecus ex <lb/> morbo decessit,
+                                 cui Harecus cognatus ejus <lb/> successit et Jutiæ præfuit, qvod
+                                 Gothormus <lb/> avunculus suus contra ipsum præliatus esset, <lb/>
+                                 tunc elapsi sunt anni ab incarnatione Do<lb/>minni nostri Jesu
+                                 Christi DCCCLXII (forsitum <lb/> mendum est, Lyscander tamen in
+                                 annum 854 refert) <lb/> illo certamine uterq<ex>ue</ex> cæsus est,
+                                 et omnis st<unclear>00</unclear>ps <lb/> Regia qvæ inter illos
+                                 fuerat intercidit, præ<lb/>ter unum puerum Harechum dictum, qvi
+                                 <lb/> deinde Rex factus est. Tunc Episcopus <lb/> Ansgarius denuo
+                                 in Daniam iter suscepit, <lb/> ad Harecum et batizabat eum.
+                                 Hare<lb/>cus Templum Ripis fundabat, sed Harecus <lb/> (alter ille
+                                 prior) alius prius ædificari curavit, <lb/> Heidebæis. Episcopus
+                                 Ansgarius elapsis <lb/> tribus annis á conflictu inter Harechum
+                                 <lb/> et Gothormum, fato functus est, Exinde <pb n="152v"/><lb/>
+                                 memorant Harecum Christianam Religionem <lb/> abjecisse, et paulo
+                                 post vitam cum morte com<lb/>mutasse. </quote>
+
+                              <filiation>Series dynastarum 1702, 404–407, Chapter 15, Lib.
+                                 III</filiation>
+
+                           </msItem>
+
+                           <msItem n="1.4.6.7">
+                              <locus from="154v" to="155r"/>
+                              <title type="supplied">Quote: <title type="uniform">Krákumál</title>
+                                 1</title>
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb/> hiuggum wier med hiorfe <lb/> hitt war æ fyrer laungu <pb
+                                    n="155r"/>
+                                 <lb n="1"/> er a Gotlande geingom <lb/> at Graffvitns morþi <lb/>
+                                 þa feingom wer Þoro <lb/> þaþan heto mik firþar <lb/> er lingaulen
+                                 lagþak <lb/> Lodbrok at þvi wige <lb/> stack ek a storþar lickio
+                                 <lb/> stäle Biartra mäla<lb/>
+                              </quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Ensibus innumeras consvevimus edere pugnas <lb/> Haud multum
+                                 effluxit temporis, ex qvo in <lb/> Gothia inusitatæ magnitudinis
+                                 serpentem <lb/> fortiter aggressi sumus, Tunc Thoram mihi <lb/>
+                                 conjugem impetravi, exinde me homines, cum <lb/> salicta
+                                 interreprentem confodi, virum hir<lb/>sutis braccis nominarunt, nam
+                                 terrestrem <pb n="155v"/><lb/> tortusitatem transfigebam ferro
+                                 lucidorum <lb/> stipendiorum. </quote>
+
+                              <note>Not cited in the 1702 Series? - Check!</note>
+                              <note> For this text in standard orthography, see <ref type="url"
+                                    target="https://skaldic.org/m.php?p=verse&amp;i=347">the Skaldic
+                                    database</ref>
+                              </note>
+                           </msItem>
+
+                           <msItem n="1.4.6.8">
+                              <locus from="155v" to="156r"/>
+                              <title type="supplied">Quote: Stanza from <title type="uniform"
+                                    >Ragnars saga</title>, ch. 3 (Rloð Lv 1 – Ragn 1) </title>
+
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb/> Her hefe ek leifþo liffe <lb/> litfaugur kona mino <lb/> wa
+                                 ek at folldar fiski <lb/> fimmtan gamall wetra <lb/> haffa skal
+                                 baul nema biti <lb/> Bradrakin<ex>n</ex> mer dauda <lb/> Heidarlags
+                                 til hiarta <lb/> hringlegen vel smiuga </quote>
+                              <quote type="translation" xml:lang="la">
+                                 <pb n="156r"/>
+                                 <lb/> Hanc Stropham Clariss: Stephanius sive <lb/> Magnus Olai
+                                 Islandus latino metro ita reddidit. <lb/> Ardua tentavi discrimina,
+                                    damnaq<ex>ue</ex> multa <lb/> Victus amore tui, virgo decora
+                                 tuli. <lb/> Vix mea qvindenas messes conspexerat ætas, <lb/> Angvis
+                                 ubi assultum fortiter exciperem. <lb/> Nunc Jacet Horrendum
+                                 Stridens et vul<lb/>nere victus </quote>
+                              <filiation>Not cited in Series dynastarum 1702 ? - Check! </filiation>
+                           </msItem>
+
+                           <msItem n="1.4.6.9">
+                              <locus from="157r" to="157v"/>
+                              <title type="supplied">Quote: Stanza from <title type="uniform"
+                                    >Ragnars saga</title>, ch. 6 (Rloð Lv 3 – Ragn 4)</title>
+
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb/> willtu þennan<ex>n</ex> þiggia <lb/> er þora hiortur atte
+                                 <lb/> serk wid silfur of merktan<ex>n</ex>
+                                 <lb/> soma allvel þier klædi, <lb/> þoro hendur huitar <lb/> hennar
+                                 wm þessar giorfar <lb/> su war Budlunge Bragna <lb/> Brud mer þeck
+                                 til dauda </quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Vis ne hanc pallam argento intextam a me <lb/> muneri capere,
+                                 qvam Thora Hiortin dicta <pb n="157v"/>
+                                 <lb/> ante hac posidebat, sane non dedecent te <lb/> tam pretiosa
+                                 indumenta, qvæ niveis Thora <lb/> manibus assabre fecit et
+                                 elaboravit. illa <lb/> profecto fæmina mihi Regum Imperatori,
+                                    usq<ex>ue</ex>
+                                 <lb/> ad extremum halitum vehementer placuit. </quote>
+
+
+                              <filiation>Not quoted in the 1702 Series? - Check </filiation>
+                           </msItem>
+
+                           <msItem n="1.4.6.10">
+                              <locus from="157v" to="158r"/>
+                              <title type="supplied">Quote: Stanza from <title type="uniform"
+                                    >Ragnars saga</title>, ch. 6</title>
+
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb/> Þori ek ei þann þiggia <lb/> er Þöra hiortur atte <lb/> serk
+                                 wid silfur off merkan<ex>n</ex>
+                                 <lb/> soma ei slik mer klæþi <lb/> þui em ek kraka kaullud <lb/> J
+                                 kolsuortum woþom <lb/> at ek hefe greitt off geingid <lb/> ok
+                                 Geitur med sia reknar </quote>
+                              <quote type="translation" xml:lang="la">
+                                 <pb n="158r"/>
+                                 <lb/> Non ausim ego dono a te accipere
+                                 inter<unclear>e</unclear>ilam <lb/> argenteo limbo circumtextam,
+                                 qvam olim <lb/> possedit cervi nomine insignita Thora,
+                                 haud<lb/>qvaqvam mihi talis competit ornatus, Pro<lb/>pterea enim
+                                 me Cracam vocant, pullis amictam <lb/> pannes, qvod per scrupos,
+                                    gramorumq<ex>ue</ex> emi<lb/>nentium, fragmenta incedens, penes
+                                 littora <lb/> caprarum agitavi greges. </quote>
+
+
+                              <filiation>Not quoted in the 1702 Series? – Check! </filiation>
+                           </msItem>
+
+                           <msItem n="1.4.6.11">
+                              <locus from="159v" to="160r"/>
+                              <title type="supplied">Quote: <title type="uniform">Krákumál</title>
+                                 26</title>
+
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb n="3"/> Hiuggom wier med hiorffe <lb/> hier willdo nu aller
+                                 <lb/> Burer Aslaugar B<supplied>r</supplied>aundom <lb/> Bitrum
+                                 hilldi vekia <lb/> Ef wandlega wisse <lb/> wm widfarar ossar <lb/>
+                                 hue öfäer ormar <lb/> Eitur faþir mik slita <lb/> moþernis feck ek
+                                 minom <lb/> maugum sua hiortun duga</quote>
+                              <quote type="translation" xml:lang="la">
+                                 <pb n="160r"/>
+                                 <lb n="1"/> Pugnavimus ensibus. hic vellent nunc omnes fi<lb/>lii
+                                 Aslaugæ gladiis amarum bellum excita<lb/>re si exacte scirent
+                                 conditionem nostram <lb/> qvam non pauci angves venenati me
+                                 discer<lb/>pant, matrem elegi meis filiis ita ut corda valeant. </quote>
+
+                              <filiation>Not quoted directly in SD1702? - Check!</filiation>
+                           </msItem>
+
+                           <msItem n="1.4.6.12">
+                              <locus from="160r" to="160r"/>
+                              <title type="supplied">Quote: Stanza from <title type="uniform"
+                                    >Ragnars saga lóðbrókar</title>, ch. 15 (Rloð Lv 10 – Ragn
+                                 27).</title>
+
+                              <quote type="poetry" xml:lang="is" rendition="runic"> Gren<lb/>ja
+                                 mundu Grijsir eff galltar kvol wisse.</quote>
+                              <quote type="translation">id est <lb/> grunnirent suculi si verris
+                                 tormenta noscent. </quote>
+
+
+                           </msItem>
+
+                           <msItem n="1.4.6.13">
+                              <locus from="160v" to="161r"/>
+                              <title type="supplied">Quote: <title type="uniform">Krákumál</title>
+                                 29</title>
+
+                              <quote type="poetry" xml:lang="is" rendition="runic">
+                                 <lb/> fisunst hinns at hætta <lb/> heim bioda mier diser <lb/> sem
+                                 fra herians haullo <lb/> heffur oþin mier sendar <lb/> Gladur skal
+                                 ek aul med Asom <pb n="161r"/><lb/> J aundveige drecka <lb/> liffs
+                                 ero liþnar stunder <lb/> læande skal ek deya </quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Sed desinam tandem, nam me Parcæ invitant, <lb/> qvas ex
+                                 Othini aula Othinus mihil miserat, Læ<lb/>tus potabo
+                                    cer<del>e</del>visiam, supremas inter Asas se<lb/>des
+                                 occupaturus; effluxerunt vitæ tempora <lb/> ridens itaq<ex>ue</ex>
+                                 moriar</quote>
+
+                              <filiation>Not quoted in SD1702 ?? - Check!</filiation>
+
+                           </msItem>
+                        </msItem>
+
+
+
+                        <msItem n="1.4.7">
+                           <locus from="161r" to="183v"/>
+                           <title type="supplied">Part II, Chapter 6</title>
+                           <rubric><lb/> CAP: VI. <lb/> De divisione Regni Daniæ inter duos <lb/>
+                              Lodbrocki filios, Sigurdum <unclear>00000000</unclear> et
+                              Huit<lb/>serchum. De Canuto Hordacanuto dicto. <lb/> Gormone Grandævo
+                              et Haraldo Blatann. <lb/> Item de Gothrico Jutiæ Rege et ejus <lb/>
+                              successoribus Jutiæ Regibus. Et <lb/> Relligione Christiana in
+                              Dani<lb/>am introducta.</rubric>
+                           <incipit><pb n="161v"/><lb/> Regnarus Lodbroch multos filios reliqvit,
+                              <lb/> qvi vivo ad huc patre, loginqviores expediti<lb/>ones suscepisse
+                              memorantur</incipit>
+                           <explicit>Et Sve<lb/>nonem furcatæ barbæ, qvi spurius et ex <lb/> infimæ
+                              sortis muliercula natus erat, cujus <lb/> aliqvalem Historiam seqventi
+                              capite Strictim perseqvar. </explicit>
+
+                           <msItem n="1.4.7.1">
+                              <locus from="162r" to="162v"/>
+                              <title type="suplied">Quote: <title type="uniform">Ólafs saga
+                                    Tryggvasonar en mesta</title>, ch. 63 (<title type="uniform"
+                                    >Ragnarssona þáttr</title>)</title>
+
+                              <quote type="prose" xml:lang="is" rendition="kurrent">
+                                 <lb/> En<ex>n</ex> er þeir komo aptur i Rijke sitt, þä <lb/> skiptu
+                                 þeir Rijkeno med sier, Tök Bjorn <lb/> Jarnsijda Uppsala Rijke,
+                                 Svijthiöd alla <lb/> og huorutveggia Gautland, og oll þau <lb/>
+                                 land er þar til liggia. Til Sigurdar Or<lb/><fw>mur</fw><pb
+                                    n="162v"/><lb n="1"/>mur i Auga huarff Eygotland og allar Eij<lb
+                                    n="2"/>ar Skäney og Halland. Huijtserkur <lb n="3"/> haffde
+                                 Reidgotaland, og þar med Winland. </quote>
+
+                              <quote type="translation" xml:lang="la">
+                                 <lb n="4"/> qvi reduces in Regnum (de Lodbrochi filiis <lb/> et
+                                 eorum expeditionibus agit) illud inter se<lb/>paratiti sunt; Biorno
+                                 Ferrilateris Regnum <lb/> uppsalense occupavit, Svecciam totam et
+                                    utramq<ex>ue</ex>
+                                 <lb/> Gothiam, et omnes Subjacentes provincias. <lb/> Sigurdo
+                                 Serpentinis oculis cessit Eygothia, <lb/> et omnes insulæ, Schania
+                                 et Hallandia. Huit<lb/>serchus tenuit Reidgothiam et
+                                 Vinlandiam.</quote>
+                              <filiation>Series Dynastarum 1702, p. 395.</filiation>
+
+                           </msItem>
+                           <msItem n="1.4.7.2">
+                              <locus from="163v" to="163v"/>
+                              <title type="supplied">Quote: <title type="uniform">Ólafs saga
+                                    Tryggvasonar en mesta</title>, ch. 63 (<title type="uniform"
+                                    >Ragnarssona þáttr</title>)</title>
+                              <quote type="prose" xml:lang="is" rendition="kurrent">
+                                 <lb/> Sigurdur Ormur J Auga atte Blæu dottur <lb/> Ellu kongs,
+                                 þeirra son war Horda Knútur <lb/> sem ädur er Ritad, Horda Knutur
+                                 war <lb/> kongur J danmork effter fodur sinn, <lb/> Og sælunde, og
+                                 Skaaney. </quote>
+                              <quote type="translation">
+                                 <lb/> Sigurdus Serpentinis oculis duxit Blæam <lb/> Ellæ Regis
+                                 filiam, illorum filius fuit Horda <lb/> canutus ut supra scriptum
+                                 est, Hordacanu<lb/>tus fuit Rex Daniæ post patrem suum in <lb/>
+                                 Sælandia videlicet et Schania. </quote>
+                              <filiation>Unknown - Check SD1702.</filiation>
+                              <note><bibl>Cf. Ólafur Halldórsson, vol. I, p. 127 and vol. III,
+                                    74.</bibl></note>
+                           </msItem>
+                           <msItem n="1.4.7.3">
+                              <locus from="166v"/>
+                              <title type="supplied">Quote: <title type="uniform">Ólafs saga
+                                    Tryggvasonar en mesta</title>, ch. 60</title>
+                              <quote type="prose" xml:lang="is" rendition="kurrent">
+                                 <lb n="3"/> Þä giordist kongar ä Jotlande, Sigrodur <lb/> Frænde
+                                 Godefride, en<ex>n</ex> Annar hiet Hri<lb/>gur Annulo. Þeir drögu
+                                 lid vid ser bader <lb/> ok ättu mijkla orosto, ok lauk sua, at
+                                 <lb/> huorotvegge fell, J þeirre orosto fiello <lb/> tiu þúshundrud
+                                 og atta hundrud og sex<lb/>tiju manna.</quote>
+                              <quote type="translation" xml:lang="la"> hoc est. <lb/> Funi Reges
+                                 Jutiæ facti sunt Sigrodus <lb/> Godefridi cognatus, alter vero
+                                 Hringo Annulo <lb/> dictus est, qvi ambo exercitum
+                                 contraxe<lb/>runt et acre bellum gesserunt, ita ut uterq<ex>ue</ex>
+                                 <lb/> vita spoliaretur. Illo certamine hominum <lb/> docem millia
+                                 oc trigenti sexaginta cæsi sunt. </quote>
+                              <filiation> Unknown - check SD1702. </filiation>
+                              <note><bibl>Cf. Ólafur Halldórsson, vol. III, p. 67 and vol I, p.
+                                    118.</bibl></note>
+
+                           </msItem>
+                           <msItem n="1.4.7.4">
+                              <locus from="172r" to="174r"/>
+                              <title type="suplied">Quote: <title type="uniform">Ólafs saga
+                                    Tyggvasonar en mesta</title>, ch. 63 </title>
+
+                              <quote type="prose" xml:lang="is" rendition="kurrent">
+                                 <lb/> Þä er Gormur son Hordaknuts wox <lb/> upp war hann allra
+                                 manna frijdastur sij<lb/>num þeirra er menn hoffdu sied i
+                                    þan<ex>n</ex>
+                                 <lb/> Tijma, hann war mijkell madur og ster<lb/>kur ok hann meste
+                                 Atgiorffes madur wm<ex>m</ex>
+                                 <lb/> Alla lute, en<ex>n</ex> ecke war han<ex>n</ex> kalladur witur
+                                 <lb/> madur sem wered hoffdo þeir frændur <lb/> han<ex>n</ex>s. Þä
+                                 er Gormur Kongur war Roske<ex>n</ex>
+                                 <lb/> madur, feck hann þeirrar kono er het Þyre, <lb/> hun war
+                                 döttur Harallds Jalls aff Jullan<lb/>di er kalladur war
+                                 Klakharalldur, Þij<lb/>re war kvenna frijdust og witur, og þad
+                                 <lb/> er talad ad hun haffe mestur skórungur <pb n="172v"/><lb/>
+                                 wered ä Nordurlaundum. hun war kollud <lb/> Þijre Danmarkar böt.
+                                 Klakharalldur fa<lb/>der hennar war kalladur witrastur þeir<lb/>ra
+                                 manna er þä woru i danmork, en<ex>n</ex>
+                                 <lb/> sijdan Gormur tök kongdom effter Hor<lb/>daknut fodur
+                                    sin<ex>n</ex>, Hitte hann miok rä<lb/>dum Harallds Jalls Mags
+                                 sijns, og Þyre <lb/> kono sinnar. Gormur kongur for med <lb/> her
+                                 sinn i þat Rijke danmarkar er þä <lb/> war kallat Reidgotaland,
+                                    en<ex>n</ex> nu Jot<lb/>land, ä hendur þeim konge er þä war
+                                 <lb/> þar fyrer, sä er nefndur Gnupa, <lb/> þeir attost widur
+                                 Nockorar Orostor, Enn <lb/> sua lauk, ad Gormur fellde
+                                    þan<ex>n</ex> kong <lb/> og eignadist allt þad Rijke. Þuij næst
+                                 <lb/> for Gormur ä hendur þeim konge er <lb/> Sythraskalle het, ok
+                                 atte wid hann ofrid, <lb/> Effter þad geck hann upp a Jotland og
+                                 <lb/> eidde þad aullom kongdöm allt sudur til <pb n="173r"/>
+                                 <lb n="1"/> Sle<unclear>ti</unclear>, hann wan<ex>n</ex> och mijked
+                                 Rijke aff <lb/><unclear>A</unclear>ndlande, Margar orostor atte
+                                    han<ex>n</ex>
+                                 <lb/> widur Saxa, og giordest hinn Rykaste <lb/> kongur. </quote>
+                              <quote type="translation" xml:lang="la">
+                                 <lb/> Cum Gormo Hordacanuti filiusad ma<lb/>turam ætatem perveniret
+                                 omniam formo<lb/>sissimus habitus est eorum qvi illo seculo <lb/>
+                                 visi sunt, Corporis insuper statura grandis <lb/> robore insignis
+                                 cætera absolutus fuit, ni<lb/>si quod sapientia cum majoribus suis
+                                 com<lb/>parari non posset, Is cum adultus esset <lb/> Thyram
+                                 Clakharaldi Ducis Jutiæ filiam in <lb/> uxorem duxit, formæ
+                                 venustate, prudentia <lb/> et sapeintia pariter insignem, ut omnes
+                                 mu<lb/>lieres qvas septemtrio produxit anqvam <lb/> excelluisse
+                                 putaretur, et Daniæ restaura <lb/> tricis cognomentum honoris causa
+                                 repor<lb/>taret. Haraldus Klakius ipsius pater <lb/> hominum qvos
+                                 illo seculo Dania habuis sa<pb n="173v"/><lb/>pientissimus
+                                 existimabatus, cujus, utet uxo<lb/>ris suæ Thyræ confiliis Gormo,
+                                 postqvam <lb/> patre Hordacanuto mortuo ad imperium <lb/> pervenit,
+                                 regnum administrabat. Cæte<lb/>rum Gormo in illam partem Daniæ qvæ
+                                 <lb/> tunc Reidgotlandia, Jam vero Jutia nun<lb/>cupatur, adversus
+                                 Regem qvendam Gru<lb/>pam dictum cum exercitu profectus est, <lb/>
+                                 qvem post aliqvet prælia fudit et regnum <lb/> ipsius in suam
+                                 potestatem redegit, deinde <lb/> expeditionem suscepit contra Regem
+                                 qven<lb/>dam nomine Sylfraskalle; Postea in Juti<lb/>am exscensione
+                                 facta omnes Reges ad Sles<lb/>vicum usq<ex>ue</ex> devicit et
+                                 magnam partem Vin<lb/>landæ sibi subjecit, et multa bella contra
+                                 <lb/> Saxones gerebat, ut Rex potentissimus e<lb/>vaderet </quote>
+
+                              <filiation>This passage does not seem to be citet in SD1702, but on p.
+                                 444 Torfaeus talks about Gormur and Thyre</filiation>
+                              <note><bibl>Cf. Ólafur Halldórsson vol III, p. 74. </bibl></note>
+                           </msItem>
+                        </msItem>
+
+                        <msItem n="1.4.8">
+                           <locus from="184r" to="196v"/>
+                           <title type="supplied">Part II, Chapter 7</title>
+                           <rubric><lb n="1"/> CAP: VII et ultimum. <lb/> De Svenone Tiuguskegg.
+                              Canuto <lb/> Magno, Horda canuto secondo. Ma<lb/>gno Bono Olai Sancti
+                              Norvegiæ Regis <lb/> filio, et Svenone Estridio, Sive ul<lb/>fonis
+                              filio, qvi hunc nostrum <lb/> tractatum claudet.</rubric>
+                           <incipit>
+                              <lb/> Sveno Bifurcatæ barbe Haraldi Blatanni <lb/> filius fuit, in
+                              Fionia ex muliere paupercu<lb/>la et vili ancilla foci Baronis Æsa
+                              nomi<lb/>ne natus </incipit>
+                           <explicit> qvæ Knit<lb/>lingasaga inscribitur et chronico Norve<lb/>gico,
+                              tum iis (si qvæ sunt) qvæ illorum <lb/> vitas ex professo perseqvuntur
+                              monu<lb/>mentis petendum est.</explicit>
+                        </msItem>
+
+                     </msItem>
+
+
+                  </msItem>
+               </msContents>
+
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="paper">
+                        <support>
+                           <material>Watermarked paper. <watermark> Various watermarks: Post-horn on
+                                 a shield in quire I (fols. ii+iii), Foolscap in quire II (fols.
+                                 1+4), Arms of Amsterdam in quire III, etc.. Further examination
+                                 needed. </watermark>
+                           </material>
+                        </support>
+                        <extent>
+                           <num type="front-flyleaf" value="5"/>
+                           <num type="book-block" value="203"/>
+                           <num type="back-flyleaf" value="7"/>
+                           <note><q xml:lang="da">204 bl. (incl. 4 stamtavler)</q>, see:
+                                 <bibl>Kålund, Katalog over de oldnorsk-islandske håndskrifter i Det
+                                 store kongelige bibliotek og i Universitetsbiblioteket
+                                 (1900).</bibl></note>
+                           <dimensions>
+                              <height unit="mm">188</height>
+                              <width unit="mm">152</width>
+                           </dimensions>
+                        </extent>
+                        <foliation>
+                           <p>Foliation in brown ink (contemporary to writing) in the upper outer
+                              corner of each leaf, starts on f. 5r (beginning of the Prolegomena) as
+                              1 and runs to 196. The first four leaves are treated as front matter
+                              (title page and dedication) and are not foliated. </p>
+                           <p>The added leaves (genealogical tables) are foliated in pencil as "bis"
+                              following the original foliation of the volume. </p>
+                           <p>Additionally modern foliation in pencil appears in lower outer corner
+                              every 50 leaves, starting on f. 45 foliated as 50, f.94 foliated as
+                              100, f. 144 foliated as 150, f.194 as 200. This foliation includes the
+                              added leaves (such as folio 35bis (inserted between f. 35 and 36
+                              according to the original foliation), which is 40th leaf of the book
+                              block).</p></foliation>
+                        <collation>
+                           <p>The manuscript comprises of 27 quires:</p>
+                           <list>
+                              <item> I(6) A quire of three conjoint leaves: paste-down + v, i + iv,
+                                 ii + iii (paste-down + 5 blank leaves at the beginning). </item>
+                              <item> II(4) A quire of two conjoint leaves: 1+4, 2+3 = unpaginated
+                                 leaves: title page on 1r and 1v blank, dedication to the king on
+                                 2r-4r, 4v blank. </item>
+                              <item>III (8) four conjoint (foliated 1-8)</item>
+                              <item>IV(8) four conjoint (foliated 9–16)</item>
+                              <item>V (8) four conjoint (fol. 17–24)</item>
+                              <item> VI (8) four conjoint (fol. 25–32)</item>
+                              <item> VII (9) four conjoint plus a hook between 3 and 4th leaf in the
+                                 quire. Inserted leaf is “Tabula Arngrimi Crijmogææ inscripta” [it
+                                 is not foliated but in the right upper corner in pencil: 35bis]
+                                 (foliated 33–40) </item>
+                              <item>VIII (8) (fol. 41–48)</item>
+                              <item> IX (9) (fol. 49–56) is a genealogical table “Duplex Genealogia
+                                 Series á Principe Septemtrionis Othino” it was not foliated
+                                 originally but now in pencil 49bis </item>
+                              <item>X(9) foliated 57–64 In front of the quire there is an addition,
+                                 56bis is a genealogical table “Fiormotus Finlandie Rex, Odino
+                                 Synchronis” </item>
+                              <item>XI (8) four conjoint, foliated 65–72 </item>
+                              <item>XII (8) four conjoint , foliated 73–80 </item>
+                              <item>XIII(13) six conjoint leaves plus inserted leaf hook between the
+                                 1st and 2nd leaf, the inserted leaf is written only on the verso
+                                 side “NB ut autem Synchronismus…[81bis in pencil]” (foliated 81–92) </item>
+                              <item>XIV (8) four conjoint (foliated 92–100)</item>
+                              <item> XV (8) four conjoint (foliated 101–108)</item>
+                              <item>XVI (8) four conjoint (foliated 109–116)</item>
+                              <item>XVII (8) four conjoint (foliated 117–124)</item>
+                              <item> XVIII (8) four conjoint (foliated 125–132)</item>
+                              <item> XIX (8) four conjoint (foliated 133–140)</item>
+                              <item>XX (8) four conjoint (foliated 141–148)</item>
+                              <item>XXI (12) six conjoint leaves (foliated 149–160)</item>
+                              <item>XXII (8) four conjoint (foliated 161–168)</item>
+                              <item>XXIII (8) four conjoint (foliated 169–176)</item>
+                              <item>XXIV (8) four conjoint (foliated 177–184)</item>
+                              <item>XXV (8) four conjoint (foliated 185–192)</item>
+                              <item>XXVI (5) two conjoint plus an additional leaf inserted on a hook
+                                 “Catalogus Monarchum et Regum Daniæ, Juxtab tenorem Annalium
+                                 Islandicorum Conscriptus.”, originally not foliated, but now in
+                                 pencil 196bis </item>
+                              <item>XXVII (7) a quire of three conjoint leaves, the last one is a
+                                 paste-down, 7 blank leaves at the end. RFL1+paste-down, RFL2+RFL7,
+                                 RFL3+RFL6, RFL4+RFL5</item>
+                           </list>
+                        </collation>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <p>
+                        <q xml:lang="da">Læderbind med silkebånd og guldsnit samt Frederik III.s
+                           navnciffer.</q>, see: <bibl>Kålund, Katalog over de oldnorsk-islandske
+                           håndskrifter i Det store kongelige bibliotek og i Universitetsbiblioteket
+                           (1900).</bibl>
+                     </p>
+                  </bindingDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <list>
+            <item><date when="2024-11-27"/>Encoding cleaned-up and file prepared for publication
+               online.</item>
+            <item><date when="2024-11-10"/>Unnecessary transcriptions and references moved to a
+               separate file.</item>
+            <item><date when="2023-02-07"/>References to secondary sources added.</item>
+            <item><date when="2022-05-19"/>Identification of the quotations completed.</item>
+            <item><date when="2021-11-19"/>Transcriptions of the quotations completed. </item>
+            <item><date when="2020-08-26"/>Transcriptions of the incipits and explicits
+               completed.</item>
+            <item><date when="2019-10-04"/>PhysDesc completed.</item>
+            <item><date when="2019-10-02"/>File created.</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
