@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Katarzyna Anna Kapitan</authority>
-            <date when="2024-11">First published online on 26 November 2024.</date>
+            <date when="2024-11-26">First published online on 26 November 2024.</date>
             <availability>
                <licence> This manuscript description is available under the terms of Creative
                   Commons license <ref type="URL"
@@ -21,7 +21,7 @@
                   contents verbatim, as it has not been proofread and may contain errors. </p>
                <p> How to cite: <bibl>
                      <author><surname>Kapitan</surname><forename>Katarzyna Anna</forename></author>
-                     <title>Description of GKS 2449 4to, https://github.com/KAKDH (last accessed:
+                     <title>Description of GKS 2449 4to, https://github.com/KAKDH/Torfaeus_share (last accessed:
                         DD/MM/YYYY)</title>
                      <date type="publication">2024</date>
                   </bibl>
@@ -2003,7 +2003,8 @@
       </fileDesc>
       <revisionDesc>
          <list>
-            <item><date when="2024-11-27"/>Encoding cleaned-up and file prepared for publication
+            <item><date when="2024-11-27"/>GitHub link added</item>
+            <item><date when="2024-11-26"/>Encoding cleaned-up and file prepared for publication
                online.</item>
             <item><date when="2024-11-10"/>Unnecessary transcriptions and references moved to a
                separate file.</item>
